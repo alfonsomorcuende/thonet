@@ -34,7 +34,7 @@ module.exports = {
   ui: {
     lang: 'en',
     // hljs: 'atom-one-dark',
-    customStylesFile: './src/uiengine/styles/realized.css',
+    customStylesFile: '/styles/realized.css',
     viewports: {
       Phone: {
         width: 320
