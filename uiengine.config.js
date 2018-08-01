@@ -4,7 +4,6 @@ module.exports = {
   // For a detailed documentation of all the options in here see
   // https://uiengine.uix.space/basics/config/
   name: 'Thonet',
-  version: '1.0.0'
 
   // Base directories for the input, your raw source files:
   // - components is the root of the directory containing the components
@@ -26,14 +25,11 @@ module.exports = {
   // Adapters are used for templating/rendering. Each adapter is a module that gets required
   // and needs to provide functions for setup and rendering. For details see the adapters docs.
   adapters: {
-    html: '@uiengine/adapter-html',
-    jsx: '@uiengine/adapter-react',
-
+    html: '@uiengine/adapter-html'
   },
 
   // Here you can configure the template that the variant preview gets embeded in.
   template: 'uiengine.html',
-  template: 'realized.html',
 
   ui: {
     lang: 'en',
