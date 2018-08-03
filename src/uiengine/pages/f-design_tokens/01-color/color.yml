@@ -1,0 +1,25 @@
+---
+
+tokens:
+- type: category
+  name: Brand
+  tokens:
+  - type: color
+    name: primary
+    value: "#DA291B"
+  - type: color
+    name: primay-darken
+    value: "#B8271E"
+  - type: color
+    name: primay-darken
+    value: "#B8271E"
+- type: category
+  name: Neutral
+  tokens:
+  - type: color
+    name: neutralWhite
+    value: "#FFF"
+  - type: color
+    name: neutralBlack
+    value: "#000"
+---

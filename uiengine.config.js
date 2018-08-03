@@ -26,6 +26,7 @@ module.exports = {
   // and needs to provide functions for setup and rendering. For details see the adapters docs.
   adapters: {
     html: '@uiengine/adapter-html'
+    jsx: '@uiengine/adapter-react'
   },
 
   // Here you can configure the template that the variant preview gets embeded in.
