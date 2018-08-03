@@ -1,6 +1,6 @@
 ---
 title: 🔶 Color
-tokens: !include ../../f-design_tokens/01-color/color.js
+tokens: !include /src/uiengine/tokens/colors.js
 ---
 
 

@@ -1,0 +1,54 @@
+categories:
+  brand: &brand Marke
+  neutral: &neutral Neutral
+  text: &text Text
+  background: &background Hintergrund
+
+global:
+  type: color
+
+aliases:
+  # Season 1
+  colorBrandPrimarySeason1: &colorBrandPrimarySeason1 "#FF183E"
+  colorBrandSecondarySeason1: &colorBrandSecondarySeason1 "#331833"
+  # Season 2
+  colorBrandPrimarySeason2: &colorBrandPrimarySeason2 "#FF7736"
+  colorBrandSecondarySeason2: &colorBrandSecondarySeason2 "#13283A"
+  # Quick 'n dirty
+  colorBrandPrimaryQnD: &colorBrandPrimaryQnD "#4FB327"
+  colorBrandSecondaryQnD: &colorBrandSecondaryQnD "#131D2C"
+
+  # Current brand colors
+  colorBrandPrimary: &colorBrandPrimary "#FF183E"
+  colorBrandSecondary: &colorBrandSecondary "#331833"
+
+props:
+  # brand
+  - name: colorBrandPrimary
+    value: *colorBrandPrimary
+    comment: Primäre Markenfarbe
+    category: *brand
+
+  - name: colorBrandSecondary
+    value: *colorBrandSecondary
+    comment: Sekundäre Markenfarbe
+    category: *brand
+
+  # neutral
+  - name: colorNeutralWhite
+    value: "#FFF"
+    category: *neutral
+
+  # text
+  - name: colorTextDefault
+    value: "{!colorBrandSecondary}"
+    category: *text
+
+  # background
+  - name: colorBackgroundDark
+    category: *background
+    value: "{!colorBrandSecondary}"
+
+  - name: colorBackgroundBrand
+    category: *background
+    value: "{!colorBrandPrimary}"
