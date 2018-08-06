@@ -10,6 +10,8 @@ La tipografía es uno de los elementos más importantes de un sistema de diseño
 ## Barlow
 ---
 
+![alt text](http://thonet.realized.es/doc/img/primitivs/typo_barlow.svg "Barlow")
+
 ```css
 font-family: 'Barlow', sans-serif;
 ```
@@ -17,6 +19,8 @@ font-family: 'Barlow', sans-serif;
 
 ## Lato
 ---
+
+![alt text](http://thonet.realized.es/doc/img/primitivs/typo_lato.svg "Lato")
 
 ```css
 font-family: 'Lato', sans-serif;
