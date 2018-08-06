@@ -1,5 +1,3 @@
----
-
 tokens:
 - type: category
   name: Brand
@@ -22,4 +20,3 @@ tokens:
   - type: color
     name: neutralBlack
     value: "#000"
----
