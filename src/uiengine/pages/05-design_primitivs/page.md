@@ -1,13 +1,13 @@
 ---
 title: Design Primitivs
 children:
-- 01. Color
-- 02. Tipografía
-- 03. Spacing
-- 04. Icons
-- 05. Layer
-- 06. Builder
-- 07. Shapes
+- 01-color
+- 02-tipografia
+- 03-spacing
+- 04-icons
+- 05-layer
+- 06-builder
+- 07-shapes
 ---
 
 Thonet Design System: Primitivs
