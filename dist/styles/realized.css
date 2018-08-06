@@ -1,3 +1,7 @@
 .topbar {
-  background-color: #B8271E; 
+  background-color: #B8271E;
+}
+hr {
+  border: 1px solid #f4f4f4 !important;
+  margin-bottom: 16px !important;
 }

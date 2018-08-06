@@ -74,8 +74,9 @@ A su vez cada uno de estos niveles están modificados con valores
 
 La paleta de color completa puede ser importada a cualquier fichero de Sketch cargando el archivo adjunto [.sketchpalette](#) a través del plugin [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes).*
 
-`*En Runner: cmd + ' → install → Sketch Palettes`
-
+```
+*En Runner: cmd + ' → install → Sketch Palettes
+```
 ## Color terms
 
 | Term        | Definition   |
