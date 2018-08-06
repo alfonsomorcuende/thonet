@@ -1,1 +1,3 @@
-# Tipografía
+---
+title:  🖋 Tipografía
+---
