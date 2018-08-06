@@ -34,7 +34,7 @@ module.exports = {
   ui: {
     lang: 'en',
     // hljs: 'atom-one-dark',
-    customStylesFile: 'styles/realized.css',
+    customStylesFile: 'http://thonet.realized.es/doc/style/realized.css',
     viewports: {
       Phone: {
         width: 320
