@@ -1,0 +1,22 @@
+mq_to($to)
+  s("screen and (max-width: %s)", $to - 1)
+mq_from($from)
+  s("screen and (min-width: %s)", $from)
+mq_from_to($from, $to)
+  s("screen and (min-width: %s) and (max-width: %s)", $from, $to - 1)
+mq_from_and_print($from)
+  s("screen and (min-width: %s), print", $from)
+
+up_to_XS = mq_to($breakpoint-xs)
+up_to_S = mq_to($breakpoint-s)
+up_to_M = mq_to($breakpoint-m)
+up_to_L = mq_to($breakpoint-l)
+
+XS_to_S = mq_from_to($breakpoint-xs, $breakpoint-s)
+S_to_M = mq_from_to($breakpoint-s, $breakpoint-m)
+M_to_L = mq_from_to($breakpoint-m, $breakpoint-l)
+
+XS_and_up = mq_from($breakpoint-xs)
+S_and_up = mq_from($breakpoint-s)
+M_and_up = mq_from($breakpoint-m)
+L_and_up = mq_from($breakpoint-l)

@@ -1,0 +1,26 @@
+{
+  "color": {
+    "brand": {
+      "primary": {
+        "base" : { "value": "#DA291B" },
+        "darken": { "value": "#B8271E" },
+        "lighten"  : { "value": "#F9423A" }
+      },
+      "secondary": {
+        "base" : { "value": "#747D8C" },
+        "darken": { "value": "#2F3542" },
+        "lighten"  : { "value": "#A4B0BE" }
+      },
+      "tertiary": {
+        "base" : { "value": "#F39C11" },
+        "darken": { "value": "#E67E22" },
+        "lighten"  : { "value": "#F1C30F" }
+      },
+      "quaternary": {
+        "base" : { "value": "#53565A" },
+        "darken": { "value": "#3D3F42" },
+        "lighten"  : { "value": "#D0D0CE" }
+      }
+    }
+  }
+}
