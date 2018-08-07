@@ -23,10 +23,12 @@ En [Realized](http://realized.es/) hemos estado pensando seriamente sobre el col
 ___
 ## Brand
 
+.....
+
 | Name        | 🔶 Color           | Hex  |
 | ------------- |:-------------:| -----:|
-| primary-base   | <div style="width: 50px; height: 25px; border: none; margin: 0 auto; position: relative; top: 2px"> ${color-brand-primary-base} </div> | #DA291B |
-| primary-darken | <div style="width: 50px; height: 25px; background-color: #B8271E; border: none; margin: 0 auto; position: relative; top: 2px">"{!colorBrandSecondary}" </div>      | #B8271E |
+| primary-base   | <div style="width: 50px; height: 25px; border: none; margin: 0 auto; position: relative; top: 2px">s </div> | #DA291B |
+| primary-darken | <div style="width: 50px; height: 25px; background-color: {!colorBrandPrimary}; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #B8271E |
 | primary-lighten| <div style="width: 50px; height: 25px; background-color: #F9423A; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #F9423A |
 | secondary-base| <div style="width: 50px; height: 25px; background-color: #747D8C; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #747D8C |
 | secondary-darken| <div style="width: 50px; height: 25px; background-color: #2F3542; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #2F3542 |

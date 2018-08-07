@@ -1,5 +1,5 @@
 categories:
-  brand: &brand Marke
+  brand: &brand Brand
   neutral: &neutral Neutral
   text: &text Text
   background: &background Hintergrund
@@ -19,19 +19,29 @@ aliases:
   colorBrandSecondaryQnD: &colorBrandSecondaryQnD "#131D2C"
 
   # Current brand colors
-  colorBrandPrimary: &colorBrandPrimary "#FF183E"
-  colorBrandSecondary: &colorBrandSecondary "#331833"
+  colorBrandPrimary: &colorBrandPrimary "#DA291B"
+  colorBrandSecondary: &colorBrandSecondary "#747D8C"
 
 props:
   # brand
-  - name: colorBrandPrimary
+  - name: primary-base
     value: *colorBrandPrimary
-    comment: Primäre Markenfarbe
+    comment: Color primario de marca
     category: *brand
 
-  - name: colorBrandSecondary
+  - name: primary-darken
+    value: "#B8271E"
+    comment: Color primario de marca oscuro
+    category: *brand
+
+  - name: primary-lighten
+    value: "#F9423A"
+    comment: Color primario de marca claro
+    category: *brand
+
+  - name: secondary-base
     value: *colorBrandSecondary
-    comment: Sekundäre Markenfarbe
+    comment: Color secundario de marca
     category: *brand
 
   # neutral
