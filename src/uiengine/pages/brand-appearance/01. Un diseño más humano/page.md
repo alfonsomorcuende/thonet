@@ -1,1 +1,0 @@
-# Un diseño más humano

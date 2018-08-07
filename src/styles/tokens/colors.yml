@@ -1,5 +1,6 @@
 categories:
   brand: &brand Brand
+  ui / support: &ui/support UI / Support
   neutral: &neutral Neutral
   text: &text Text
   background: &background Hintergrund
@@ -22,6 +23,12 @@ aliases:
   colorBrandPrimary: &colorBrandPrimary "#DA291B"
   colorBrandSecondary: &colorBrandSecondary "#747D8C"
 
+  # UI / Support
+  info: &info "#17A2B9"
+  success: &success "#39CB4F"
+  warning: &warning "#E6B516"
+  error: &error "#F54B5E"
+
 props:
   # brand
   - name: primary-base
@@ -43,6 +50,53 @@ props:
     value: *colorBrandSecondary
     comment: Color secundario de marca
     category: *brand
+
+  - name: secondary-darken
+    value: "#2F3542"
+    comment: Color secundario de marca oscuro
+    category: *brand
+
+
+  - name: secondary-ligthen
+    value: "#A4B0BE"
+    comment: Color secundario de marca claro
+    category: *brand
+
+  - name: tertiary-base
+    value: "#F39C11"
+    comment: Color terciario de marca
+    category: *brand
+
+  - name: tertiary-darken
+    value: "#E67E22"
+    comment: Color terciario de marca oscuro
+    category: *brand
+
+  - name: tertiary-ligthen
+    value: "#F1C30F"
+    comment: Color terciario de marca claro
+    category: *brand
+
+  - name: quaternary-base
+    value: "#53565A"
+    comment: Color cuaternario de marca
+    category: *brand
+
+  - name: quaternary-darken
+    value: "#3D3F42"
+    comment: Color secundario de marca oscuro
+    category: *brand
+
+  - name: quaternary-ligthen
+    value: "#D0D0CE"
+    comment: Color cuaternario de marca claro
+    category: *brand
+
+  # ui / support
+  - name: info
+    value: *info
+    category: *ui/support
+
 
   # neutral
   - name: colorNeutralWhite

@@ -1,1 +1,0 @@
-# Brand Voice and Tone

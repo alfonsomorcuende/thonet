@@ -34,11 +34,7 @@ module.exports = {
   ui: {
     lang: 'en',
     // hljs: 'atom-one-dark',
-<<<<<<< HEAD
     customStylesFile: 'http://thonet.realized.es/doc/style/realized.css',
-=======
-    // customStylesFile: '/path-to-overrides.css',
->>>>>>> uiengine
     viewports: {
       Phone: {
         width: 320

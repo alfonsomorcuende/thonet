@@ -1,5 +1,6 @@
 ---
 title: 🔶 Color
+tokens: !include /src/uiengine/tokens/colors.js
 ---
 
 > *"Design is thinking made visual"*
@@ -20,6 +21,8 @@ En [Realized](http://realized.es/) hemos estado pensando seriamente sobre el col
 # Swatches <a id="swatches"></a>
 ___
 ## Brand
+
+....
 
 | Name        | 🔶 Color           | Hex  |
 | ------------- |:-------------:| -----:|
@@ -77,6 +80,8 @@ La paleta de color completa puede ser importada a cualquier fichero de Sketch ca
 ```
 *En Runner: cmd + ' → install → Sketch Palettes
 ```
+
+
 ## Color terms
 
 | Term        | Definition   |
