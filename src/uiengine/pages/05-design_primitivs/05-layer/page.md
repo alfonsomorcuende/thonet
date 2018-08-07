@@ -8,6 +8,8 @@ Por defecto, **"Thonet"** cuenta con cuatro niveles de elevación entre capas o 
 
 El nivel de elevación de cada capa viene indicado por su sombra:
 
+![alt text](http://thonet.realized.es/doc/img/primitivs/layer_types.png "Thonet Layer Types")
+
 ## Tipos
 
 | Layer name        | Elevation   | Box-shadow |
@@ -26,3 +28,6 @@ y = elevation  -->  blur = y+2
 
 ## Elevación entre componentes y layout
 ---
+<br>
+
+![alt text](http://thonet.realized.es/doc/img/primitivs/layer_elevation-scale.png "Thonet Layer Elevation Scale")
