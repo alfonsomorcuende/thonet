@@ -22,7 +22,7 @@ En [Realized](http://realized.es/) hemos estado pensando seriamente sobre el col
 ___
 ## Brand
 
-....
+......
 
 | Name        | 🔶 Color           | Hex  |
 | ------------- |:-------------:| -----:|

@@ -16,11 +16,3 @@ gulp.task('uiengine', done => {
 
 
 const theo = require('gulp-theo')
-
-// Transform design/props.yml to dist/props.scss:
-
-gulp.task('tokens', () =>
-  gulp.src(paths.tokens)
-    .pipe(p.theo({ format: { type: 'styl' } }))
-    .pipe(gulp.dest('src/styles/tokens'))
-)
