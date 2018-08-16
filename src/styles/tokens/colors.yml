@@ -1,8 +1,9 @@
 categories:
   brand: &brand Brand
   ui / support: &ui/support UI / Support
-  neutral: &neutral Neutral
-  text: &text Text
+  ui / neutral: &ui/neutral UI / Neutral
+  ui / link: &ui/link UI / Link
+  ui / social: &ui/social UI / Social
   background: &background Hintergrund
 
 global:
@@ -25,9 +26,54 @@ aliases:
 
   # UI / Support
   info: &info "#17A2B9"
+  info-lighten-30: &info-lighten-30 "#5DBECE"
+  info-lighten-60: &info-lighten-60 "#A2D9E3"
   success: &success "#39CB4F"
+  success-lighten-30: &success-lighten-30 "#74DA84"
+  success-lighten-60: &success-lighten-60 "#AFEAB8"
   warning: &warning "#E6B516"
+  warning-lighten-30: &warning-lighten-30 "#EDCB5C"
+  warning-lighten-60: &warning-lighten-60 "#F5E1A1"
   error: &error "#F54B5E"
+  error-lighten-30: &error-lighten-30 "#F8818E"
+  error-lighten-60: &error-lighten-60 "#FBB7BE"
+
+  # UI / Neutral
+  black: &black "#000000"
+  black-lighten-30: &black-lighten-30 "#4C4C4C"
+  black-lighten-60: &black-lighten-60 "#999999"
+  white: &white "#FFFFFF"
+  darker-gray: &darker-gray "#222222"
+  dark-gray: &dark-gray "#4E4E4E"
+  dark-medium-gray: &dark-medium-gray "#7A7A7A"
+  gray: &gray "#BCBCBC"
+  light-medium-gray: &light-medium-gray "#E8E8E8"
+  light-gray: &light-gray "#F4F4F4"
+  lighter-gray: &lighter-gray "#FBFBFB"
+
+  # UI / Link
+  default: &default "#0000EE"
+  visited: &visited "#551A8B"
+  active: &active "#FF0000"
+  :hover: &:hover "#0202BD"
+
+  # UI / Social
+  behance: &behance "#1769FF"
+  dribbble: &dribbble "#EA4C89"
+  dropbox: &dropbox "#0061FF"
+  facebook: &facebook "#3B5998"
+  github: &github "#4078C0"
+  google-plus: &google-plus "#D34836"
+  instagram: &instagram "#4C5FD7"
+  linkedin: &linkedin "#0077B5"
+  pinterest: &pinterest "#CB2027"
+  skype: &skype "#00AFF0"
+  slack: &slack "#6ECADC"
+  spotify: &spotify "#1ED760"
+  twitter: &twitter "#00B6F1"
+  vimeo: &vimeo "#45BBFF"
+  youtube: &youtube "#FF0000"
+
 
 props:
   # brand
@@ -55,7 +101,6 @@ props:
     value: "#2F3542"
     comment: Color secundario de marca oscuro
     category: *brand
-
 
   - name: secondary-ligthen
     value: "#A4B0BE"
@@ -97,16 +142,173 @@ props:
     value: *info
     category: *ui/support
 
+  - name: info-lighten-30
+    value: *info-lighten-30
+    category: *ui/support
 
-  # neutral
-  - name: colorNeutralWhite
-    value: "#FFF"
-    category: *neutral
+  - name: info-lighten-60
+    value: *info-lighten-60
+    category: *ui/support
 
-  # text
-  - name: colorTextDefault
-    value: "{!colorBrandSecondary}"
-    category: *text
+  - name: success
+    value: *success
+    category: *ui/support
+
+  - name: success-lighten-30
+    value: *success-lighten-30
+    category: *ui/support
+
+  - name: success-lighten-60
+    value: *success-lighten-60
+    category: *ui/support
+
+  - name: warning
+    value: *warning
+    category: *ui/support
+
+  - name: warning-lighten-30
+    value: *warning-lighten-30
+    category: *ui/support
+
+  - name: warning-lighten-60
+    value: *warning-lighten-60
+    category: *ui/support
+
+  - name: error
+    value: *error
+    category: *ui/support
+
+  - name: error-lighten-30
+    value: *error-lighten-30
+    category: *ui/support
+
+  - name: error-lighten-60
+    value: *error-lighten-60
+    category: *ui/support
+
+
+  # ui/neutral
+  - name: black
+    value: *black
+    category: *ui/neutral
+
+  - name: black-lighten-30
+    value: *black-lighten-30
+    category: *ui/neutral
+
+  - name: black-lighten-60
+    value: *black-lighten-60
+    category: *ui/neutral
+
+  - name: white
+    value: *white
+    category: *ui/neutral
+
+  - name: darker-gray
+    value: *darker-gray
+    category: *ui/neutral
+
+  - name: dark-gray
+    value: *dark-gray
+    category: *ui/neutral
+
+  - name: dark-medium-gray
+    value: *dark-medium-gray
+    category: *ui/neutral
+
+  - name: gray
+    value: *gray
+    category: *ui/neutral
+
+  - name: light-medium-gray
+    value: *light-medium-gray
+    category: *ui/neutral
+
+  - name: light-gray
+    value: *light-gray
+    category: *ui/neutral
+
+  - name: lighter-gray
+    value: *lighter-gray
+    category: *ui/neutral
+
+  # ui/link
+  - name: default
+    value: *default
+    category: *ui/link
+
+  - name: visited
+    value: *visited
+    category: *ui/link
+
+  - name: active
+    value: *active
+    category: *ui/link
+
+  - name: :hover
+    value: "{!:hover}"
+    category: *ui/link
+
+  # ui/social
+  - name: behance
+    value: *behance
+    category: *ui/social
+
+  - name: dribbble
+    value: *dribbble
+    category: *ui/social
+
+  - name: dropbox
+    value: *dropbox
+    category: *ui/social
+
+  - name: facebook
+    value: *facebook
+    category: *ui/social
+
+  - name: github
+    value: *github
+    category: *ui/social
+
+  - name: google-plus
+    value: *google-plus
+    category: *ui/social
+
+  - name: instagram
+    value: *instagram
+    category: *ui/social
+
+  - name: linkedin
+    value: *linkedin
+    category: *ui/social
+
+  - name: pinterest
+    value: *pinterest
+    category: *ui/social
+
+  - name: skype
+    value: *skype
+    category: *ui/social
+
+  - name: slack
+    value: *slack
+    category: *ui/social
+
+  - name: spotify
+    value: *spotify
+    category: *ui/social
+
+  - name: twitter
+    value: *twitter
+    category: *ui/social
+
+  - name: vimeo
+    value: *vimeo
+    category: *ui/social
+
+  - name: youtube
+    value: *youtube
+    category: *ui/social
 
   # background
   - name: colorBackgroundDark

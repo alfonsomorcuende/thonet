@@ -9,39 +9,23 @@ tokens: !include /src/uiengine/tokens/colors.js
 
 - [Swatches](#swatches)
 - [Usage](#usage)
+- [Color Roles](#color-roles)
 
 
 En [Realized](http://realized.es/) hemos estado pensando seriamente sobre el color. Nuestra intención con **"Thonet"** es ofrecer una filosofía, una organización y una paleta de colores que permita crear patrones de diseño claros, significativos y emocionales alrededor del color.
 
 **"Thonet"** ofrece una paleta de colores armónica con nuestra marca que se divide en dos grandes agrupaciones:
 
-1. [UI](https://www.notion.so/realizeddesignsystem/Color-c9ebad4a79364cb0a258bf008f6911f7#d5a62033ad284be8915a626fe895c258)
-2. [Brand](https://www.notion.so/realizeddesignsystem/4c22601096134654b970a937cf48492b?v=0b211e3ee60c4d2b8795d2c196a5004e)
+1. [UI](#color-ui)
+2. [Brand](#color-brand)
 
-# Swatches <a id="swatches"></a>
-___
-## Brand
+<a id="usage"></a>
 
-....
-
-| Name        | 🔶 Color           | Hex  |
-| ------------- |:-------------:| -----:|
-| primary-base   | <div style="width: 50px; height: 25px; background-color: #DA291B; border: none; margin: 0 auto; position: relative; top: 2px"> </div> | #DA291B |
-| primary-darken | <div style="width: 50px; height: 25px; background-color: #B8271E; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #B8271E |
-| primary-lighten| <div style="width: 50px; height: 25px; background-color: #F9423A; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #F9423A |
-| secondary-base| <div style="width: 50px; height: 25px; background-color: #747D8C; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #747D8C |
-| secondary-darken| <div style="width: 50px; height: 25px; background-color: #2F3542; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #2F3542 |
-| secondary-lighten| <div style="width: 50px; height: 25px; background-color: #A4B0BE; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #A4B0BE |
-| tertiary-base| <div style="width: 50px; height: 25px; background-color: #F39C11; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #F39C11 |
-| tertiary-darken| <div style="width: 50px; height: 25px; background-color: #E67E22; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #E67E22 |
-| tertiary-lighten| <div style="width: 50px; height: 25px; background-color: #F1C30F; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #F1C30F |
-| quaternary-base| <div style="width: 50px; height: 25px; background-color: #53565A; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #53565A |
-| quaternary-darken| <div style="width: 50px; height: 25px; background-color: #3D3F42; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #3D3F42 |
-| quaternary-lighten| <div style="width: 50px; height: 25px; background-color: #D0D0CE; border: none; margin: 0 auto; position: relative; top: 2px"> </div>      | #D0D0CE |
-
-
-# Usage <a id="usage"></a>
+# Usage
 ---
+
+<a id="color-ui"></a>
+
 ## UI
 
 La estructura de UI se subdivide en las agrupaciones:
@@ -58,6 +42,8 @@ La estructura de UI se subdivide en las agrupaciones:
   - Active
   - Visited
 - **Social:** Lista de colores corporativos de las principales redes sociales hoy en día en el mercado.
+
+<a id="color-brand"></a>
 
 ## Brand
 
@@ -93,3 +79,17 @@ La paleta de color completa puede ser importada a cualquier fichero de Sketch ca
 | Token | The code identifier for a unique role or set of roles. Variables are universal and never change across themes. Within a theme variables are assigned appropriate values. |
 | Theme | The set of unique color values assigned to the universal palette |
 | Palette | The complete set of universal variables. The palette is the naming conventions of colors used in the UI. Each theme will use the same palette of variables. |
+
+<a id="color-roles"></a>
+
+# Color roles
+
+| Token        | Class   | Role(s)  | Value   | RGBA  | HSLA  |
+| ------------- |-------------| -------------| -------------| -------------| -------------|
+| $primary | .primary | Primary brand / Interactive text / Primary icon color / Primary border color | #DA291B | 218,41,27,1 | 4.397905759162303, 77.95918367346938, 48, 1 |
+
+
+
+<a id="swatches"></a>
+
+# Swatches
