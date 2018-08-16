@@ -309,12 +309,3 @@ props:
   - name: youtube
     value: *youtube
     category: *ui/social
-
-  # background
-  - name: colorBackgroundDark
-    category: *background
-    value: "{!colorBrandSecondary}"
-
-  - name: colorBackgroundBrand
-    category: *background
-    value: "{!colorBrandPrimary}"
