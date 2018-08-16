@@ -1,6 +1,8 @@
 ---
 title: 🔶 Color
-tokens: !include /src/uiengine/tokens/colors.js
+template: test1.ejs
+context:
+  tokens: !include /src/uiengine/tokens/colors.js
 ---
 
 > *"Design is thinking made visual"*
@@ -22,7 +24,7 @@ En [Realized](http://realized.es/) hemos estado pensando seriamente sobre el col
 ___
 ## Brand
 
-......
+.....
 
 | Name        | 🔶 Color           | Hex  |
 | ------------- |:-------------:| -----:|
