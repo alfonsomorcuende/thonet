@@ -1,21 +1,81 @@
 global:
   type: fontSize
-  category: Schriftgrößen
+  category: sizes
 
 props:
-  - name: fontSizeS
-    value: .9rem
-  - name: fontSizeM
+  - name: desktopFontSizeXXS
+    value: .625rem
+  - name: desktopFontSizeXS
+    value: .75rem
+  - name: desktopFontSizeS
+    value: .875rem
+  - name: desktopFontSizeM
     value: 1rem
-  - name: fontSizeL
+  - name: desktopFontSizeL
     value: 1.25rem
-  - name: fontSizeXL
+  - name: desktopFontSizeXL
     value: 1.5rem
-  - name: fontSizeXXL
+  - name: desktopFontSizeXXL
+    value: 1.75rem
+  - name: desktopFontSizeHead3
     value: 2rem
-  - name: fontSizeBoss
-    value: 3rem
-  - name: fontSizeMega
+  - name: desktopFontSizeHead2
+    value: 2.5rem
+  - name: desktopFontSizeHead1
+    value: 2.875rem
+  - name: desktopFontSizeDisp3
+    value: 3.625rem
+  - name: desktopFontSizeDisp2
+    value: 4rem
+  - name: desktopFontSizeHead1
     value: 4.5rem
-  - name: fontSizeUltra
-    value: 6rem
+  - name: tabletFontSizeXXS
+    value: .625rem
+  - name: tabletFontSizeXS
+    value: .75rem
+  - name: tabletFontSizeS
+    value: .875rem
+  - name: tabletFontSizeM
+    value: 1rem
+  - name: tabletFontSizeL
+    value: 1.125rem
+  - name: tabletFontSizeXL
+    value: 1.25rem
+  - name: tabletFontSizeXXL
+    value: 1.5rem
+  - name: tabletFontSizeHead3
+    value: 1.75rem
+  - name: tabletFontSizeHead2
+    value: 2rem
+  - name: tabletFontSizeHead1
+    value: 2.25rem
+  - name: tabletFontSizeDisp3
+    value: 2.875rem
+  - name: tabletFontSizeDisp2
+    value: 3.25rem
+  - name: tabletFontSizeHead1
+    value: 3.625rem
+  - name: mobFontSizeXS
+    value: .75rem
+  - name: mobFontSizeS
+    value: .875rem
+  - name: mobFontSizeM
+    value: 1rem
+  - name: mobFontSizeL
+    value: 1.125rem
+  - name: mobFontSizeXL
+    value: 1.25rem
+  - name: mobFontSizeXXL
+    value: 1.5rem
+  - name: mobFontSizeHead3
+    value: 1.75rem
+  - name: mobFontSizeHead2
+    value: 2rem
+  - name: mobFontSizeHead1
+    value: 2.25rem
+  - name: mobFontSizeDisp3
+    value: 2.5rem
+  - name: mobFontSizeDisp2
+    value: 2.875rem
+  - name: mobFontSizeHead1
+    value: 3.25rem

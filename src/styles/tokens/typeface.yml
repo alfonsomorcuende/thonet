@@ -1,0 +1,48 @@
+      - name: Barlow
+        type: category
+        tokens:
+        - type: font
+          fontweight: regular
+          license: SIL Open Font License
+          variable: BarlowRegular
+          value: "font-family: BarlowRegular;"
+          sizes:
+            - 1rem
+        - type: font
+          fontweight: bold
+          license: SIL Open Font License
+          variable: BarlowBold
+          value: "font-family: BarlowBold;"
+          sizes:
+            - 2rem
+        - type: font
+          fontweight: black
+          license: SIL Open Font License
+          variable: BarlowBlack
+          value: "font-family: BarlowBlack;"
+          sizes:
+            - 3rem
+      - name: Lato
+        type: category
+        tokens:
+        - type: font
+          fontweight: light
+          license: SIL Open Font License
+          variable: BarlowRegular
+          value: "font-family: LatoLight;"
+          sizes:
+            - 1rem
+        - type: font
+          fontweight: regular
+          license: SIL Open Font License
+          variable: BarlowBold
+          value: "font-family: LatoRegular;"
+          sizes:
+            - 2rem
+        - type: font
+          fontweight: bold
+          license: SIL Open Font License
+          variable: BarlowBlack
+          value: "font-family: LatoBold;"
+          sizes:
+            - 3rem

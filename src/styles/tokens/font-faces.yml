@@ -1,14 +1,26 @@
 categories:
-  merriweathersans: &merriweathersans Merriweather Sans
+  barlow: &barlow Barlow
+  lato: &lato Lato
 
 global:
   type: fontFace
-  category: *merriweathersans
 
 props:
-  - name: fontFaceMerriweathersansRegular
-    value: MerriweathersansRegular
-  - name: fontFaceMerriweathersansBold
-    value: MerriweathersansBold
-  - name: fontFaceMerriweathersansLightitalic
-    value: MerriweathersansLightitalic
+  - name: fontFaceBarlowRegular
+    value: BarlowRegular
+    category: *barlow
+  - name: fontFaceBarlowBold
+    value: BarlowBold
+    category: *barlow
+  - name: fontFaceBarlowBlack
+    value: BarlowBlack
+    category: *barlow
+  - name: fontFaceLatoLight
+    value: LatoLight
+    category: *lato
+  - name: fontFaceLatoRegular
+    value: LatoRegular
+    category: *lato
+  - name: fontFaceLatoBold
+    value: LatoBold
+    category: *lato
