@@ -4,14 +4,20 @@ global:
 
 props:
   - name: spacing-xxxs
-    value: .125em
+    value: .125rem
   - name: spacing-xxs
-    value: .25em
+    value: .25rem
   - name: spacing-xs
-    value: .5em
-  - name: spaceL
-    value: 1.5em
-  - name: spaceXL
-    value: 2.5em
-  - name: spaceXXL
-    value: 4em
+    value: .5rem
+  - name: spacing-s
+    value: .75rem
+  - name: spacing-m
+    value: 1rem
+  - name: spacing-l
+    value: 1.5rem
+  - name: spacing-xl
+    value: 2rem
+  - name: spacing-xxl
+    value: 2.5rem
+  - name: spacing-xxxl
+    value: 3rem
