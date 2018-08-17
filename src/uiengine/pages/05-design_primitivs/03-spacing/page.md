@@ -29,3 +29,53 @@ Diferenciamos la aplicación de espacios a dos tipos de patrones.
 Hemos creado una escala de tamaños que se distribuye de forma diferenciada por los niveles de espacios con los que contamos. Los espaciados de componentes se usan para componentes pequeños, especialmente dentro de componentes mas complejos, por ejemplo la separación existente entre un Label y un Text Input.
 
 Esta escala tiene incrementos constantes para poder crear relaciones dentro de componentes de interfaz.
+
+![alt text](http://thonet.realized.es/doc/img/primitivs/spacing-table_component_spacing.svg "Component Spacing  ")
+
+## Spacing scale
+
+| Name        | PX   | Rem  | Token   |   
+| ------------- |-------------| -------------| -------------|
+| spacing-xxxs | 2 | 0.125 | $spacing-xxxs |
+| spacing-xxs | 4 | 0.25 | $spacing-xxs |
+| spacing-xs | 8 | 0.5 | $spacing-xs |
+| spacing-s | 12 | 0.75 | $spacing-s |
+| spacing-m | 16 | 1 | $spacing-m |
+| spacing-l | 24 | 1.5 | $spacing-l |
+| spacing-xl | 32 | 2 | $spacing-xl |
+| spacing-xxl | 40 | 2.5 | $spacing-xxl |
+| spacing-xxxl | 48 | 3 | $spacing-xxxl |
+
+## Símbolos disponibles para documentar espacios de componentes
+
+---
+
+Como librería "Primitiv" Thonet dispone de símbolos para poder documentar todos estos espacios en nuestros diseños. Se dispone de las siguientes opciones.
+
+![alt text](http://thonet.realized.es/doc/img/primitivs/spacing-components_symbols.svg "Component Symbols  ")
+
+## Escala de espacios para layout
+
+---
+
+Los espaciados de layout se usan para distribuir elementos a lo largo de las páginas, por ejemplo la separación entre bloques de información. Layout tiene incrementos superiores que componentes con lo que puedes seleccionar diferentes rangos de valores para interfaces más compactas o con más nivel de blancos. Usa valores más grandes de layout para separar secciones.
+
+![alt text](http://thonet.realized.es/doc/img/primitivs/spacing-table_layout_spacing.svg "Layout Spacing  ")
+
+| Name        | PX   | Rem  | Token   |   
+| ------------- |-------------| -------------| -------------|
+| spacing-xxs | 16 | 1 | $spacing-xxs |
+| spacing-xs | 24 | 1.5 | $spacing-xs |
+| spacing-s | 32 | 2 | $spacing-s |
+| spacing-m | 48 | 3 | $spacing-m |
+| spacing-l | 64 | 5 | $spacing-l |
+| spacing-xl | 96 | 6 | $spacing-xl |
+| spacing-xxl | 160 | 10 | $spacing-xxl |
+
+## Símbolos disponibles para documentar espacios de layout
+
+---
+
+Como librería "Primitiv" Thonet dispone de símbolos para poder documentar todos estos espacios en nuestros diseños. Se dispone de las siguientes opciones.
+
+![alt text](http://thonet.realized.es/doc/img/primitivs/spacing-layout_symbols.svg "Layout Symbols  ")
