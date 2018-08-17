@@ -10,16 +10,6 @@ global:
   type: color
 
 aliases:
-  # Season 1
-  colorBrandPrimarySeason1: &colorBrandPrimarySeason1 "#FF183E"
-  colorBrandSecondarySeason1: &colorBrandSecondarySeason1 "#331833"
-  # Season 2
-  colorBrandPrimarySeason2: &colorBrandPrimarySeason2 "#FF7736"
-  colorBrandSecondarySeason2: &colorBrandSecondarySeason2 "#13283A"
-  # Quick 'n dirty
-  colorBrandPrimaryQnD: &colorBrandPrimaryQnD "#4FB327"
-  colorBrandSecondaryQnD: &colorBrandSecondaryQnD "#131D2C"
-
   # Current brand colors
   colorBrandPrimary: &colorBrandPrimary "#DA291B"
   colorBrandSecondary: &colorBrandSecondary "#747D8C"
