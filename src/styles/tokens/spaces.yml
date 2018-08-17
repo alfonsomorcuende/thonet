@@ -21,3 +21,17 @@ props:
     value: 2.5rem
   - name: spacing-xxxl
     value: 3rem
+  - name: layout-xxs
+    value: 1rem
+  - name: layout-xs
+    value: 1.5rem
+  - name: layout-s
+    value: 2rem
+  - name: layout-m
+    value: 3rem
+  - name: layout-l
+    value: 5rem
+  - name: layout-xl
+    value: 6rem
+  - name: layout-xxl
+    value: 10rem
