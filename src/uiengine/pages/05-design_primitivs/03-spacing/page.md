@@ -21,9 +21,6 @@ Diferenciamos la aplicación de espacios a dos tipos de patrones.
 - El patrón funcional, al que aplicamos los espacios de componentes, por ejemplo un botón o un input... a estos espacios los denominamos "spacing".
 - El patrón de producto, que es aplicado de forma general a la composición de las páginas diseñadas, también lo denominamos layout y es el que da forma, personalidad y coherencia al producto que estemos creando. Para este tipo de espaciado utilizamos el nombre de "layout".
 
-Carbon has two spacing scales, one for general spacing within components and the other for layout spacing. Both are designed to complement the existing components and typography throughout the system.
-
-Each scale has its own distinct purpose. The two scales have certain overlapping values that serve two different roles so be mindful when picking a spacing token.
 
 ## Escala de espacios para componentes
 

@@ -3,79 +3,79 @@ global:
   category: sizes
 
 props:
-  - name: desktopFontSizeXXS
+  - name: desktopFontSize-xxs
     value: .625rem
-  - name: desktopFontSizeXS
+  - name: desktopFontSize-xs
     value: .75rem
-  - name: desktopFontSizeS
+  - name: desktopFontSize-s
     value: .875rem
-  - name: desktopFontSizeM
+  - name: desktopFontSize-m
     value: 1rem
-  - name: desktopFontSizeL
+  - name: desktopFontSize-l
     value: 1.25rem
-  - name: desktopFontSizeXL
+  - name: desktopFontSize-xl
     value: 1.5rem
-  - name: desktopFontSizeXXL
+  - name: desktopFontSize-xxl
     value: 1.75rem
-  - name: desktopFontSizeHead3
+  - name: desktopFontSize-head3
     value: 2rem
-  - name: desktopFontSizeHead2
+  - name: desktopFontSize-head2
     value: 2.5rem
-  - name: desktopFontSizeHead1
+  - name: desktopFontSize-head1
     value: 2.875rem
-  - name: desktopFontSizeDisp3
+  - name: desktopFontSize-disp3
     value: 3.625rem
-  - name: desktopFontSizeDisp2
+  - name: desktopFontSize-disp2
     value: 4rem
-  - name: desktopFontSizeHead1
+  - name: desktopFontSize-disp1
     value: 4.5rem
-  - name: tabletFontSizeXXS
+  - name: tabletFontSize-xxs
     value: .625rem
-  - name: tabletFontSizeXS
+  - name: tabletFontSize-xs
     value: .75rem
-  - name: tabletFontSizeS
+  - name: tabletFontSize-s
     value: .875rem
-  - name: tabletFontSizeM
+  - name: tabletFontSize-m
     value: 1rem
-  - name: tabletFontSizeL
+  - name: tabletFontSize-l
     value: 1.125rem
-  - name: tabletFontSizeXL
+  - name: tabletFontSize-xl
     value: 1.25rem
-  - name: tabletFontSizeXXL
+  - name: tabletFontSize-xxl
     value: 1.5rem
-  - name: tabletFontSizeHead3
+  - name: tabletFontSize-head3
     value: 1.75rem
-  - name: tabletFontSizeHead2
+  - name: tabletFontSize-head2
     value: 2rem
-  - name: tabletFontSizeHead1
+  - name: tabletFontSize-head1
     value: 2.25rem
-  - name: tabletFontSizeDisp3
+  - name: tabletFontSize-disp3
     value: 2.875rem
-  - name: tabletFontSizeDisp2
+  - name: tabletFontSize-disp2
     value: 3.25rem
-  - name: tabletFontSizeHead1
+  - name: tabletFontSize-disp1
     value: 3.625rem
-  - name: mobFontSizeXS
+  - name: mobFontSize-xs
     value: .75rem
-  - name: mobFontSizeS
+  - name: mobFontSize-s
     value: .875rem
-  - name: mobFontSizeM
+  - name: mobFontSize-m
     value: 1rem
-  - name: mobFontSizeL
+  - name: mobFontSize-l
     value: 1.125rem
-  - name: mobFontSizeXL
+  - name: mobFontSize-xl
     value: 1.25rem
-  - name: mobFontSizeXXL
+  - name: mobFontSize-xxl
     value: 1.5rem
-  - name: mobFontSizeHead3
+  - name: mobFontSize-head3
     value: 1.75rem
-  - name: mobFontSizeHead2
+  - name: mobFontSize-head2
     value: 2rem
-  - name: mobFontSizeHead1
+  - name: mobFontSize-head1
     value: 2.25rem
-  - name: mobFontSizeDisp3
+  - name: mobFontSize-disp3
     value: 2.5rem
-  - name: mobFontSizeDisp2
+  - name: mobFontSize-disp2
     value: 2.875rem
-  - name: mobFontSizeHead1
+  - name: mobFontSize-disp1
     value: 3.25rem

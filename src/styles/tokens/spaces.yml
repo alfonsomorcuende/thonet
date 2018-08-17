@@ -1,14 +1,14 @@
 global:
   type: space
-  category: Abstände
+  category: Spacing
 
 props:
-  - name: spaceXS
+  - name: spacing-xxxs
+    value: .125em
+  - name: spacing-xxs
     value: .25em
-  - name: spaceS
+  - name: spacing-xs
     value: .5em
-  - name: spaceM
-    value: .75em
   - name: spaceL
     value: 1.5em
   - name: spaceXL
