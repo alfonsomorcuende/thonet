@@ -78,4 +78,4 @@ Los espaciados de layout se usan para distribuir elementos a lo largo de las pá
 
 Como librería "Primitiv" Thonet dispone de símbolos para poder documentar todos estos espacios en nuestros diseños. Se dispone de las siguientes opciones.
 
-![alt text](http://thonet.realized.es/doc/img/primitivs/spacing-layout_symbols.svg "Layout Symbols  ")
+![alt text](http://thonet.realized.es/doc/img/primitivs/spacing_layout_symbols.svg "Layout Symbols  ")
