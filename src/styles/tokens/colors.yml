@@ -4,7 +4,6 @@ categories:
   ui / neutral: &ui/neutral UI / Neutral
   ui / link: &ui/link UI / Link
   ui / social: &ui/social UI / Social
-  background: &background Hintergrund
 
 global:
   type: color
