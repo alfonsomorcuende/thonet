@@ -13,6 +13,39 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 
 ![alt text](http://thonet.realized.es/doc/img/components/btn-simple-sizes.png "Simple button sizes")
 
+#### Sizes
+
+| Available Sizes  | Style  |
+| ------------- |-------------| -------------|
+| S | `height: 32px` |
+| M | `height: 40px` |
+| L | `height: 48px` |
+| XL | `height: 56px` |
+
+#### Atoms
+
+| Atoms  | Options  |
+| ------------- |-------------| -------------|
+| Layer | disabled (-1) / resting (0) / raised (2) / floating (4) |
+| Fill | border-radius (0, 2px, 4px, 8px, 100%) / background-color |
+| Border | border-radius (0, 2px, 4px, 8px, 100%) / border-color / border-width |
+| Text | font-family (1, 2) / device / size / weight / color |
+| State | default / :hover / visited / disabled |
+| Size | S / M / L / XL |
+
+#### Tokens
+
+| Tokens  |
+| --------- |
+| $layer |
+| $fill |
+| $border |
+| $font |
+| $state | 
+| $size |
+| $spacing |
+
+
 | Sizes        | Options  | Tokens     |
 | ------------- |-------------| -------------|
 | S | Layer | $layer |
