@@ -1,13 +1,14 @@
 ---
-title: Buttons
+title: Sliders
 ---
-![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Tokens composing a button")
+![alt text](http://thonet.realized.es/doc/img/components/checkbox-tokens.png "Tokens composing a button")
 
 ### Introduction
 
-Buttons express what action will occur when the user clicks or touches it. Buttons are used to initialize an action, either in the background or foreground of an experience.
+A checkable input that communicates if an option is true, false or indeterminate.
+The ability to style checkboxes with CSS varies across browsers. To ensure that checkboxes look the same everywhere, we use a custom DOM. Pay close attention to the markup, because all elements must exist for the styles to work.
 
-## Simple button
+## Radio button
 
 ---
 
@@ -16,35 +17,24 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 #### Sizes
 
 | Available Sizes  | Style  |
-| ------------- |-------------| -------------|
+| ------------- |-------------|
 | S | `height: 32px` |
 | M | `height: 40px` |
 | L | `height: 48px` |
-| XL | `height: 56px` |
+
 
 #### Atoms
 
 | Atoms  | Tokens  | Options |
 | ------------- |-------------| -------------|
-| Layer | $layer | disabled (-1) / resting (0) / raised (2) / floating (4) |
+| Layer | $layer | disabled (-1) / resting (0) |
 | Fill | $fill | border-radius (0, 2px, 4px, 8px, 100%) / background-color |
 | Border | $border | border-radius (0, 2px, 4px, 8px, 100%) / border-color / border-width |
 | Text | $font | font-family (1, 2) / device / size / weight / color |
 | State | $state | default / :hover / visited / disabled |
-| Size | $size | S / M / L / XL |
+| Size | $size | S / M / L |
 | Spacing | $spacing | spacing (xxxs, xxs, xs, s, m, l, xl, xxl, xxxl) |
 
-#### Tokens
-
-| Tokens  |
-| --------- |
-| $layer |
-| $fill |
-| $border |
-| $font |
-| $state |
-| $size |
-| $spacing |
 
 ### Usage
 
@@ -66,11 +56,9 @@ Buttons are used primarily on action items. Some examples include Add, Save, Del
 
 ### Variations
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-variations.png "Simple button variations")
 
-## Icon button
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-icon.png "Icon button")
+## Checkbox button
 
 | Sizes        | Options  | Tokens     |
 | ------------- |-------------| -------------|
@@ -90,11 +78,11 @@ Buttons are used primarily on action items. Some examples include Add, Save, Del
 
 ### Variations
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-icon-variations.png "Icon button variations")
 
-## Split button / button groups
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-groups.png "Icon button variations")
+## Radio button groups
+
+
 
 
 | Sizes        | Options  | Tokens     |
@@ -117,6 +105,6 @@ Buttons are used primarily on action items. Some examples include Add, Save, Del
 ![alt text](http://thonet.realized.es/doc/img/components/btn-groups-variations.png "Split buttons variations")
 
 
-## Button states
+## Checkbox states
 
-Default / :hover / visited / disabled / focused
+disabled / enabled / intermediate / focused
