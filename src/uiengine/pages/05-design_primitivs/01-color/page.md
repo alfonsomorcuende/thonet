@@ -1,8 +1,12 @@
 ---
 title: 🔶 Color
-template: test1.ejs
+template: test.ejs
 context:
-  tokens: !include /src/uiengine/tokens/colors.js
+  tokens:
+    - <<: !include /src/uiengine/tokens/colors.js
+    - <<: !include /src/uiengine/tokens/font-families.js
+    - <<: !include /src/uiengine/tokens/font-sizes.js
+    - <<: !include /src/uiengine/tokens/breakpoints.js
 ---
 
 > *"Design is thinking made visual"*
