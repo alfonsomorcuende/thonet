@@ -118,7 +118,7 @@ props:
 
   - name: quaternary-darken
     value: "#3D3F42"
-    comment: Color secundario de marca oscuro
+    comment: Color cuaternario marca oscuro
     category: *brand
 
   - name: quaternary-ligthen
