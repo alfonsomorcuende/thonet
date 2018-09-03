@@ -69,7 +69,7 @@ Para construirlos, seguimos la misma lógica de variables lighten and darken con
 | ------------- |-------------| -----------------|
 | :hover | lighten($dark-gray, 60%) | preview |
 | pressed | lighten($dark-gray, 30%) | preview |
-| Raised | lighten($white, 30%) | color preview |
+| Disabled | lighten($white, 30%) | color preview |
 
 
 ![alt text](http://thonet.realized.es/doc/img/primitivs/builder_states-example.png "Thonet states examples")

@@ -17,7 +17,7 @@ El nivel de elevación de cada capa viene indicado por su sombra:
 | Disabled | -1 | none |
 | Resting | 0 | none |
 | Raised | 2 | 0 2px 4px 0 rgba(0,0,0,0.10); |
-| Disabled | 8 | 0 8px 10px 0 rgba(0,0,0,0.10); |
+| Floating | 8 | 0 8px 10px 0 rgba(0,0,0,0.10); |
 
 ## Cómo calcular el box-shadow
 ---
