@@ -1,7 +1,45 @@
-.topbar {
-  background-color: #B8271E;
+@import url('https://fonts.googleapis.com/css?family=Barlow|Lato');
+
+
+
+
+/* GENERAL */
+
+body p {
+  font-family: 'Lato', sans-serif;
+}
+h1, .big-title{
+  font-family: 'Barlow', sans-serif;
 }
 hr {
   border: 1px solid #f4f4f4 !important;
   margin-bottom: 16px !important;
+}
+.main .big-title{
+  font-size: 46px;
+  font-weight: bolder;
+  line-height: 51px;
+  color: #2a2a2a;
+}
+.main .red{
+  color: #DA291B;
+}
+
+
+
+/* HEADER */
+
+.topbar {
+  background-color: #FBFBFB;
+  border-bottom: solid 1px #D8D8D8;
+}
+input.topbar__searchfield {
+    border-radius: 20px;
+    border: solid 1px #D8D8D8;
+}
+a.topbar__home{
+  color: #2F3542;
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
 }

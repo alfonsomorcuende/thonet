@@ -7,7 +7,7 @@ y se adaptará a la personalidad de la marca, según se desarrolla nuestra perso
 
 Su intención es unificar el diálogo con clientes y entre las personas que formamos Realized. Te invitamos a usarla, criticarla y sobre todo a hacerla crecer.
 
-#### Tenemos una voz y un tokens__container
+#### Tenemos una voz y un tono
 
 Sí, son dos cosas diferentes.
 
