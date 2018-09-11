@@ -56,7 +56,8 @@ a.topbar__home{
 #navigation-root,
 .navigation__item.navigation__item--level-0.navigation__item--children,
 .navigation__tree.navigation__tree--level-1,
-.navigation__item--level-1 .navigation__link{
+.navigation__item--level-1 .navigation__link,
+.navigation__item--level-0 .navigation__link{
   background-color: #ffffff;
 }
 #navigation{
@@ -64,6 +65,13 @@ a.topbar__home{
 }
 .navigation__item.navigation__item--level-1 a{
   color: #2F3542;
+}
+.navigation__item--level-0 .navigation__link,
+.icon.navigation__icon{
+  color: #DA291B;
+}
+.icon.navigation__icon{
+  fill: #DA291B;
 }
 
 
