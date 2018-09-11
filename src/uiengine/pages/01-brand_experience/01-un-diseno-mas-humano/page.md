@@ -6,7 +6,7 @@ Realized surge en el polo opuesto. Es ese momento de descubrimiento, en el que t
 
 Para que este proceso de descubrimiento y entendimiento tenga lugar, hay algo imprescindible: la empatía.
 
-<h1 class="title">Diseño más humano.</h1>
+<h1 class="big-title">Diseño más humano.</h1>
 
 La empatía siempre está presente en Realized, cómo podríamos diseñar para personas sin entenderlas, sin ponernos en su lugar.
 

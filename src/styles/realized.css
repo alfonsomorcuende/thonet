@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Lato');
-
-
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,700,900|Lato:300,400,700');
 
 
 /* GENERAL */
@@ -8,23 +6,31 @@
 body p {
   font-family: 'Lato', sans-serif;
 }
-h1, .big-title{
+.main h1,
+.main .big-title,
+.main .title{
   font-family: 'Barlow', sans-serif;
+}
+.main .title{
+  font-size: 20px;
+  line-height: 22.5px;
+  color: #000000;
+  font-weight: 900;
+}
+.main .big-title{
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 51px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+}
+.main .red{
+  color: #DA291B;
 }
 hr {
   border: 1px solid #f4f4f4 !important;
   margin-bottom: 16px !important;
 }
-.main .big-title{
-  font-size: 46px;
-  font-weight: bolder;
-  line-height: 51px;
-  color: #2a2a2a;
-}
-.main .red{
-  color: #DA291B;
-}
-
 
 
 /* HEADER */
@@ -42,4 +48,34 @@ a.topbar__home{
   font-family: 'Barlow', sans-serif;
   font-size: 24px;
   font-weight: normal;
+}
+
+/* NAV */
+
+#navigation,
+#navigation-root,
+.navigation__item.navigation__item--level-0.navigation__item--children,
+.navigation__tree.navigation__tree--level-1,
+.navigation__item--level-1 .navigation__link{
+  background-color: #ffffff;
+}
+#navigation{
+  border-right: solid 1px #D8D8D8;
+}
+.navigation__item.navigation__item--level-1 a{
+  color: #2F3542;
+}
+
+
+
+/* LISTS */
+
+
+.item-list{
+  min-height: 192px;
+  margin-bottom: 24px;
+}
+.block-image{
+  float: left;
+  margin-right: 24px;
 }

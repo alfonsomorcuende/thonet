@@ -2,6 +2,8 @@
 
 <h1 class="title">Propósito</h1>
 
+![alt text](http://thonet.realized.es/doc/img/brand/experience/proposito@2x.png "Propósito")
+
 
 ## WHAT
 Consultoría de diseño e investigación poniendo en el centro a las personas.
