@@ -37,29 +37,28 @@ Es clara y transparente, tal como nos gusta que nos hablen a nosotras. Antes de 
      </div>
     </div>
 
+  <div class="item-list">
+    <div class="block-image">
+    </div>
+    <div class="block-title">
+      <p>Lo que decimos puede cambiar, pero no cómo lo decimos.<p>
+    </div>
+   </div>
+
+   <div class="item-list">
+     <div class="block-image">
+     </div>
+     <div class="block-title">
+       <p>Cuida la longitud de lo que escribes, expresa las ideas por separado como lo harías en una conversación.<p>
+     </div>
+    </div>
+
     <div class="item-list">
       <div class="block-image">
       </div>
       <div class="block-title">
-        <p>Lo que decimos puede cambiar, pero no cómo lo decimos.<p>
+        <p>Es inclusiva, en la medida de lo posible no haremos distinciones de género.<p>
       </div>
      </div>
 
-     <div class="item-list">
-       <div class="block-image">
-       </div>
-       <div class="block-title">
-         <p>Cuida la longitud de lo que escribes, expresa las ideas por separado como lo harías en una conversación.<p>
-       </div>
-      </div>
-
-      <div class="item-list">
-        <div class="block-image">
-        </div>
-        <div class="block-title">
-          <p>Es inclusiva, en la medida de lo posible no haremos distinciones de género.<p>
-        </div>
-       </div>
-
-
-       <h2 class="big-title red">Hablamos con personas, mantenlo siempre en mente cuando escribas.</h2>
+<h2 class="big-title red">Hablamos con personas, mantenlo siempre en mente cuando escribas.</h2>
