@@ -1,6 +1,6 @@
 # Brand Spirit
 
-<h1 class="title">Brand Spirit</h1>
+<h1 class="big-title">Brand Spirit</h1>
 
 ## Evocaciones...
 

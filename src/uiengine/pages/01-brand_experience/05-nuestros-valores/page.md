@@ -1,21 +1,21 @@
 # Nuestros valores
 
-<h1 class="title">Valores</h1>
+<h1 class="big-title">Valores</h1>
 
-#### Humildad
+### Humildad
 Aprendemos siempre.
 
-#### Solidaridad
+### Solidaridad
 Compartimos lo aprendido.
 
-#### Honestidad
+### Honestidad
 Reconocemos nuestras equivocaciones.
 
-#### Creatividad
+### Creatividad
 Pensamos diferente para hacerlo mejor.
 
-#### Liderazgo
+### Liderazgo
 Tenemos nuestro propio punto de vista y lo compartimos con respeto.
 
-#### Metodología
+### Metodología
 Procesos siempre por encima de suposiciones.

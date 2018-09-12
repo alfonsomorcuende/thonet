@@ -1,10 +1,10 @@
 # Nuestros principios
 
-<h1 class="title">Principios</h1>
+<h1 class="big-title">Principios</h1>
 
 Creemos que el conocimiento es propiedad de todos y todas.
 
-<div class="center-image">
+<div class="left-image medium">
   <img src="http://thonet.realized.es/doc/img/brand/experience/transparencia@2x.png"/>
 </div>
 
@@ -14,7 +14,7 @@ El mejor diseño es el que se comparte. Hacer públicas nuestras experiencias y 
 
 Diseñamos el mundo del que queremos formar parte.
 
-<div class="center-image">
+<div class="left-image medium">
   <img src="http://thonet.realized.es/doc/img/brand/experience/coherencia@2x.png"/>
 </div>
 
@@ -24,7 +24,7 @@ Hacemos lo que decimos y hablamos con resultados. Esta coherencia puede verse en
 
 Nuestra forma de entender cada gesto.
 
-<div class="center-image">
+<div class="left-image medium">
   <img src="http://thonet.realized.es/doc/img/brand/experience/empatia@2x.png"/>
 </div>
 

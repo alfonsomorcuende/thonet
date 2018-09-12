@@ -1,12 +1,11 @@
 # En el blog
 
-<h1 class="title">En el blog</h1>
+<h2 class="big-title">Mantén una estructura.</h2>
 
-## Mantén una estructura.
 
 Puede parecer obvio, pero un texto estructurado se lee y se entiende mejor:
 
-<ul>
+<ul class="default-list">
   <li>Titular descriptivo.</li>
   <li>Subtitular que amplía información.</li>
   <li>Cuerpo de texto con introducción.</li>

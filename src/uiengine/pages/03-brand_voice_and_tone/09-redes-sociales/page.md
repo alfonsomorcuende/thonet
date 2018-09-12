@@ -1,12 +1,12 @@
 # En redes sociales
 
-<h1 class="title">En redes sociales</h1>
+<h2 class="big-title">HABLAS PARA UNA AUDIENCIA AMPLIA.</h2>
 
-## HABLAS PARA UNA AUDIENCIA AMPLIA.
+##
 
 Te leerán muchos tipos de personas diferentes, así que tú eliges a quién va dirigido el mensaje en cada momento. En cualquier caso puedes tener en cuenta:
 
-<ul>
+<ul class="default-list">
   <li>Ve directamete al tema que quieres comunicar.</li>
   <li>Utiliza un tono cercano pero formal.</li>
   <li>En Twitter, ya sabes, máximo 280 caracteres.</li>

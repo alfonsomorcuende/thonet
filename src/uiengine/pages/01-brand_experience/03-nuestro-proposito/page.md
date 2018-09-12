@@ -1,6 +1,6 @@
 # Nuestro propósito
 
-<h1 class="title">Propósito</h1>
+<h1 class="big-title">Propósito</h1>
 
 <div class="center-image">
   <img src="http://thonet.realized.es/doc/img/brand/experience/proposito@2x.png"/>
