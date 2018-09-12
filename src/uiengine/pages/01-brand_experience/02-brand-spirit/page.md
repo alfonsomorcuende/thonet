@@ -51,4 +51,6 @@
 
 ## Espíritu...
 
-![alt text](http://thonet.realized.es/doc/img/brand/experience/espiritu@2x.png "Espíritu")
+<div class="center-image">
+  <img src="http://thonet.realized.es/doc/img/brand/experience/espiritu@2x.png"/>
+</div>

@@ -2,8 +2,9 @@
 
 <h1 class="title">Propósito</h1>
 
-![alt text](http://thonet.realized.es/doc/img/brand/experience/proposito@2x.png "Propósito")
-
+<div class="center-image">
+  <img src="http://thonet.realized.es/doc/img/brand/experience/proposito@2x.png"/>
+</div>
 
 ## WHAT
 Consultoría de diseño e investigación poniendo en el centro a las personas.

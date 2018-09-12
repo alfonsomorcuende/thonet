@@ -4,7 +4,9 @@
 
 Creemos que el conocimiento es propiedad de todos y todas.
 
-![alt text](http://thonet.realized.es/doc/img/brand/experience/transparencia@2x.png "Transparencia")
+<div class="center-image">
+  <img src="http://thonet.realized.es/doc/img/brand/experience/transparencia@2x.png"/>
+</div>
 
 <h2 class="big-title">Transparencia.</h2>
 
@@ -12,7 +14,9 @@ El mejor diseño es el que se comparte. Hacer públicas nuestras experiencias y 
 
 Diseñamos el mundo del que queremos formar parte.
 
-![alt text](http://thonet.realized.es/doc/img/brand/experience/coherencia@2x.png "Coherencia")
+<div class="center-image">
+  <img src="http://thonet.realized.es/doc/img/brand/experience/coherencia@2x.png"/>
+</div>
 
 <h2 class="big-title">Coherencia.</h2>
 
@@ -20,7 +24,9 @@ Hacemos lo que decimos y hablamos con resultados. Esta coherencia puede verse en
 
 Nuestra forma de entender cada gesto.
 
-![alt text](http://thonet.realized.es/doc/img/brand/experience/empatia@2x.png "Empatía")
+<div class="center-image">
+  <img src="http://thonet.realized.es/doc/img/brand/experience/empatia@2x.png"/>
+</div>
 
 <h2 class="big-title">Empatía.</h2>
 

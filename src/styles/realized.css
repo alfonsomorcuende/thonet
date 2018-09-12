@@ -8,7 +8,14 @@ body p {
 }
 .main h1,
 .main .big-title,
-.main .title{
+.main .title,
+.main .contentheader__title,
+#navigation,
+#navigation-root,
+.navigation__item.navigation__item--level-0.navigation__item--children,
+.navigation__tree.navigation__tree--level-1,
+.navigation__item--level-1 .navigation__link,
+.navigation__item--level-0 .navigation__link{
   font-family: 'Barlow', sans-serif;
 }
 .main .title{
@@ -30,6 +37,13 @@ body p {
 hr {
   border: 1px solid #f4f4f4 !important;
   margin-bottom: 16px !important;
+}
+.center-image{
+  text-align: center;
+  margin: 48px 0;
+}
+.center-image img{
+  max-width: 600px;
 }
 
 
@@ -72,6 +86,11 @@ a.topbar__home{
 }
 .icon.navigation__icon{
   fill: #DA291B;
+}
+.navigation__link[href]:active,
+.navigation__link[href]:focus,
+.navigation__link[href]:hover {
+  color: #F9423A;
 }
 
 
