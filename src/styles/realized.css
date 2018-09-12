@@ -3,6 +3,15 @@
 
 /* GENERAL */
 
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 body p,
 table {
   font-family: 'Lato', sans-serif;
@@ -51,6 +60,9 @@ hr {
 .left-image.medium img{
   max-width: 350px;
   margin-bottom: 48px;
+}
+.subtitle{
+  margin-bottom: 24px;
 }
 
 
@@ -143,9 +155,22 @@ button.topbar__toggle.topbar__toggle--menu::after {
   min-height: 192px;
   margin-bottom: 24px;
 }
+.half,
+.third{
+  float: left;
+}
+.half{
+  width: 50%;
+}
+.third{
+  width: 30%;
+}
 .block-image{
   float: left;
   margin-right: 24px;
+}
+.no-float{
+  float: none;
 }
 .block-title{
   width: 600px;
@@ -167,4 +192,7 @@ button.topbar__toggle.topbar__toggle--menu::after {
   left: 0;
   position: relative;
   margin-right: 16px;
+}
+.small{
+  width: 300px;
 }

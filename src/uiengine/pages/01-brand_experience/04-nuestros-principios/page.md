@@ -1,8 +1,19 @@
 # Nuestros principios
 
-<h1 class="big-title">Principios</h1>
+<h2 class="big-title">Principios</h2>
 
 Creemos que el conocimiento es propiedad de todos y todas.
+
+<div class="item-list">
+  <div class="block-image small">
+    <img src="http://thonet.realized.es/doc/img/brand/experience/transparencia@2x.png"/>
+  </div>
+  <div class="block-title">
+    <h2 class="big-title">Transparencia.</h2>
+    <p>El mejor diseño es el que se comparte. Hacer públicas nuestras experiencias y nuestras dudas nos hace crecer y aprender. Preguntar no muestra debilidad, al contrario, es signo de nuestro afán por mejorar. Conocer mejor a nuestros usuarios y clientes aprendiendo ellos.</p>
+    <p>Diseñamos el mundo del que queremos formar parte.</p>
+  </div>
+ </div>
 
 <div class="left-image medium">
   <img src="http://thonet.realized.es/doc/img/brand/experience/transparencia@2x.png"/>
