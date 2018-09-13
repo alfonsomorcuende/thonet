@@ -11,6 +11,9 @@
     clear: both;
     display: table;
 }
+.main .content {
+  max-width: none;
+}
 
 body p,
 table {
