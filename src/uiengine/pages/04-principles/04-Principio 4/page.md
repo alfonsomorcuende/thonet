@@ -1,11 +1,9 @@
-# 04
-
-<h2 class="title">Principio 4</h2>
+# Principio 4
 
 ...En el camino.
 
 <div class="">
-  <img src="http://thonet.realized.es/doc/img/brand/experience/hacer-como-principio@2x.png"/>
+  <img src="http://thonet.realized.es/doc/img/brand/principles/proposito.png"/>
 </div>
 
 <h3 class="big-title">Propósito.</h3>

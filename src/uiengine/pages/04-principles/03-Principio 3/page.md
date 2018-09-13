@@ -1,11 +1,9 @@
-# 03
-
-<h2 class="title">Principio 3</h2>
+# Principio 3
 
 Eres tan bueno como las cosas que haces.
 
 <div class="">
-  <img src="http://thonet.realized.es/doc/img/brand/experience/hacer-como-principio@2x.png"/>
+  <img src="http://thonet.realized.es/doc/img/brand/principles/belleza.png"/>
 </div>
 
 <h3 class="big-title">Belleza.</h3>

@@ -1,11 +1,9 @@
-# 02
-
-<h2 class="title">Principio 2</h2>
+# Principio 2
 
 El global es superior a la suma de las partes.
 
 <div class="">
-  <img src="http://thonet.realized.es/doc/img/brand/experience/hacer-como-principio@2x.png"/>
+<img src="http://thonet.realized.es/doc/img/brand/principles/unidad.png"/>
 </div>
 
 <h3 class="big-title">Unidad.</h3>

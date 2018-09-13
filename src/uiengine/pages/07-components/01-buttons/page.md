@@ -58,12 +58,28 @@ Example: icon left / xlarge
   <img style="width: 498px;" alt="Icon button subtypes" src="http://thonet.realized.es/doc/img/components/btn-icon-subtypes.png"/>
 </div>
 
+### Icon button variants
+
+Example: icon left / xlarge
+
+<div class="left-image large">
+  <img style="width: 844px;" alt="Icon button subtypes" src="http://thonet.realized.es/doc/img/components/btn-icon-variants.png"/>
+</div>
+
+### Split button subtypes
+
+Example: main
+
+<div class="left-image large">
+  <img style="width: 454px;" alt="Split button subtypes" src="http://thonet.realized.es/doc/img/components/btn-split-subtypes.png"/>
+</div>
+
 ### Split button variants
 
 Example: main
 
 <div class="left-image large">
-  <img style="width: 844px;" alt="Split button variants" src="http://thonet.realized.es/doc/img/components/btn-split-variants.png"/>
+  <img alt="Split button variants" src="http://thonet.realized.es/doc/img/components/btn-split-variants.png"/>
 </div>
 
 ### Split button subtypes

@@ -1,11 +1,9 @@
-# 01
-
-<h2 class="title">Principio 1</h2>
+# Principio 1
 
 Soluciona el problema, no los síntomas.
 
 <div class="">
-  <img src="http://thonet.realized.es/doc/img/brand/experience/hacer-como-principio@2x.png"/>
+  <img src="http://thonet.realized.es/doc/img/brand/principles/global.png"/>
 </div>
 
 <h3 class="big-title">Global.</h3>
