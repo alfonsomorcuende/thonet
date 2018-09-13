@@ -60,15 +60,22 @@ hr {
 .center-image img{
   max-width: 600px;
 }
-.main .medium img{
-  width: 350px;
+.main .medium img,
+.center-description{
   margin-bottom: 48px;
+}
+.center-description{
+  width: 450px;
+  margin: 0 auto;
 }
 .subtitle{
   margin-bottom: 24px;
 }
 .main .large img{
   width: 633px;
+}
+.center{
+  text-align: center;
 }
 
 /* HEADER */
