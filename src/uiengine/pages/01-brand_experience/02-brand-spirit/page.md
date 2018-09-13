@@ -18,7 +18,7 @@
  </div>
 
  <div class="item-list third">
-   <div class="block-imagem no-float">
+   <div class="block-image no-float">
     <img src="http://thonet.realized.es/doc/img/brand/experience/rapidos@2x.png"/>
    </div>
    <div class="block-title">
@@ -27,7 +27,7 @@
   </div>
 
   <div class="item-list third">
-    <div class="block-imagem no-float">
+    <div class="block-image no-float">
       <img src="http://thonet.realized.es/doc/img/brand/experience/varios-niveles@2x.png"/>
     </div>
     <div class="block-title">
@@ -36,7 +36,7 @@
    </div>
 
   <div class="item-list third">
-     <div class="block-imagem no-float">
+     <div class="block-image no-float">
       <img src="http://thonet.realized.es/doc/img/brand/experience/efectivos@2x.png"/>
      </div>
      <div class="block-title">
@@ -45,7 +45,7 @@
     </div>
 
   <div class="item-list third">
-    <div class="block-imagem no-float">
+    <div class="block-image no-float">
       <img src="http://thonet.realized.es/doc/img/brand/experience/curiosos@2x.png"/>
     </div>
     <div class="block-title">

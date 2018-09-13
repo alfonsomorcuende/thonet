@@ -1,0 +1,13 @@
+# 02
+
+<h2 class="title">Principio 2</h2>
+
+El global es superior a la suma de las partes.
+
+<div class="">
+  <img src="http://thonet.realized.es/doc/img/brand/experience/hacer-como-principio@2x.png"/>
+</div>
+
+<h3 class="big-title">Unidad.</h3>
+
+Sin una buena documentación no existe un buen componente. Comunica a los diseñadores y desarrolladores el objetivo, el uso, las dependencias y especificidades de tu diseño. Tanto el diseño, la documentación como el codificado de cualquier componente tiene unas normas de composición previas, ayuda a unificar aún más el sistema, además de respetar el trabajo previo de tus compañeros.

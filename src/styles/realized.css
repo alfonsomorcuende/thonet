@@ -57,14 +57,16 @@ hr {
 .center-image img{
   max-width: 600px;
 }
-.left-image.medium img{
+.main .medium img{
   max-width: 350px;
   margin-bottom: 48px;
 }
 .subtitle{
   margin-bottom: 24px;
 }
-
+.main .large img{
+  max-width: 633px;
+}
 
 /* HEADER */
 
