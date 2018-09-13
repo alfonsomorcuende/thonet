@@ -146,7 +146,7 @@ button.topbar__toggle.topbar__toggle--menu::after {
     background-image: url('http://thonet.realized.es/doc/img/brand/thonet-logo.png');
     background-size: cover;
     position: relative;
-    left: -10px;
+    left: -11px;
 }
 
 
