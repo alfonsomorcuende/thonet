@@ -1,6 +1,6 @@
 # Nuestro tono
 
-<h1 class="title">Nuestro tono</h1>
+<h2 class="big-title">Nuestro tono</h2>
 
 Es siempre cálido y honesto, puede variar dependiendo de las comunicaciones y de las personas integrantes del diálogo pero siempre:
 
@@ -49,4 +49,4 @@ Es siempre cálido y honesto, puede variar dependiendo de las comunicaciones y d
   </div>
 </div>
 
-<h2 class="big-title red">HABLAMOS CON LAS PERSONAS COMO LAS PERSONAS, COMO LAS PERSONAS MOSTRAMOS SENTIMIENTOS.</h2>
+<h2 class="big-title red half">HABLAMOS CON LAS PERSONAS COMO LAS PERSONAS, COMO LAS PERSONAS MOSTRAMOS SENTIMIENTOS.</h2>

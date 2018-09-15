@@ -5,7 +5,7 @@ Eres tan bueno como las cosas que haces.
 <div class="center">
 
 
-<div class="">
+<div class="margin-bottom-small">
   <img src="http://thonet.realized.es/doc/img/brand/principles/belleza.png"/>
 </div>
 

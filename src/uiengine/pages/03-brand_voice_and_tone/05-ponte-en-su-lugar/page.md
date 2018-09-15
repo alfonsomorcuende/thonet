@@ -1,6 +1,6 @@
 # Ponte en su lugar
 
-<h1 class="title">Ponte en su lugar</h1>
+<h2 class="title">Ponte en su lugar</h2>
 
 <h2 class="big-title">HAZTE ALGUNAS REGUNTAS.</h2>
 

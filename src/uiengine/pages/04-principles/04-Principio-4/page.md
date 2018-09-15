@@ -4,7 +4,7 @@
 
 <div class="center">
 
-<div class="">
+<div class="margin-bottom-small">
   <img src="http://thonet.realized.es/doc/img/brand/principles/proposito.png"/>
 </div>
 

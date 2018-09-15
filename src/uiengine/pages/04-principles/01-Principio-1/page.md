@@ -5,7 +5,7 @@ Soluciona el problema, no los síntomas.
 <div class="center">
 
 
-<div class="">
+<div class="margin-bottom-small">
   <img src="http://thonet.realized.es/doc/img/brand/principles/global.png"/>
 </div>
 

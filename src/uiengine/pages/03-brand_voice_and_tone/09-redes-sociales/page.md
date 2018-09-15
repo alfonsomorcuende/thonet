@@ -17,6 +17,6 @@ Te leerán muchos tipos de personas diferentes, así que tú eliges a quién va 
 
 Muy importante: cuando hagas referencia a contenidos creados por otras empresas o personas cita siempre la fuente.
 
-<h2 class="big-title red">...LA PALABRA DESTRUYE AL HOMBRE...</h2>
+<h2 class="big-title red half no-float">...LA PALABRA DESTRUYE AL HOMBRE...</h2>
 
 ## L. Mª PANERO

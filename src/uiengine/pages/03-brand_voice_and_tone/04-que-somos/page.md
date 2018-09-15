@@ -13,11 +13,15 @@ Capaz de compartir el conocimiento en lugar de imponerlo. De acompañar en lugar
 
 ![alt text](http://thonet.realized.es/doc/img/brand/voice-and-tone/maestra.png "Justa Freire")
 
+<a class="brand-link" href="https://es.wikipedia.org/wiki/Justa_Freire">Justa Freire</a>
+
 ### Consultora
 
 Que acompaña en lugar de señalar el camino. Que no tiene miedo a hacer públicos sus errores, porque son parte del proceso. Que es capaz de corregir y rectificar, de adaptarse y de no dar nada por sentado.
 
 ![alt text](http://thonet.realized.es/doc/img/brand/voice-and-tone/consultora.png "Gerda Taro")
+
+<a class="brand-link" href="https://es.wikipedia.org/wiki/Gerda_Taro">Gerda Taro</a>
 
 ### Escritora
 
@@ -26,3 +30,5 @@ Porque al fin y al cabo nuestro trabajo es contar cosas, a través de pantallas,
 Nunca inventamos ni suponemos, nos basamos en hechos. No escribimos ficción, lo nuestro son los ensayos de realidad.
 
 ![alt text](http://thonet.realized.es/doc/img/brand/voice-and-tone/escritora.png "Virginia Woolf")
+
+<a class="brand-link" href="https://es.wikipedia.org/wiki/Virginia_Woolf">Virginia Woolf</a>

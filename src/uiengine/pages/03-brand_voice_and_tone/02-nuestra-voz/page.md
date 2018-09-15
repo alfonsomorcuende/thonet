@@ -1,6 +1,6 @@
 # Nuestra voz
 
-<h1 class="big-title">Nuestra voz</h1>
+<h2 class="big-title">Nuestra voz</h2>
 
 Es clara y transparente, tal como nos gusta que nos hablen a nosotras. Antes de escribir, nos ponemos siempre en el lugar de la persona que nos lee, intentamos entender cómo se siente y qué necesita. Te dejamos algunas ideas, pueden serte útiles a la hora de ponerte en el lugar de la persona que leerá tus textos:
 
@@ -66,4 +66,4 @@ Es clara y transparente, tal como nos gusta que nos hablen a nosotras. Antes de 
         <p>Es inclusiva, en la medida de lo posible no haremos distinciones de género.<p>
       </div>
      </div>
-<h2 class="big-title red">Hablamos con personas, mantenlo siempre en mente cuando escribas.</h2>
+<h2 class="big-title red half">Hablamos con personas, mantenlo siempre en mente cuando escribas.</h2>
