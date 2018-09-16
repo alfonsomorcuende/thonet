@@ -5,7 +5,7 @@ El global es superior a la suma de las partes.
 <div class="center">
 
 
-<div class="margin-botton-small">
+<div class="margin-bottom-small">
 <img src="http://thonet.realized.es/doc/img/brand/principles/unidad.png"/>
 </div>
 

@@ -12,7 +12,7 @@
     display: table;
 }
 .main .content {
-  max-width: none;
+  max-width: 980px;
 }
 
 body p,
@@ -82,6 +82,9 @@ hr {
 }
 .margin-bottom-small{
   margin-bottom: 24px;
+}
+.margin-bottom-large{
+  margin-bottom: 160px;
 }
 
 /* HEADER */
