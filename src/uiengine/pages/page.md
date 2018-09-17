@@ -1,7 +1,6 @@
 
-<div class="margin-bottom-small">
 ![alt text](http://thonet.realized.es/doc/img/brand/thonet-cover.png "Thonet")
-</div>
+
 
 <div class="margin-bottom-small">
   <h2>Lo que serás capaz de hacer con thonet</h2>
