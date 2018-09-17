@@ -147,6 +147,9 @@ a.topbar__home{
 .icon.navigation__icon{
   fill: #DA291B;
 }
+.navigation__itemtoggle:hover .navigation__icon{
+  fill: #F9423A;
+}
 
 .navigation__link[href]:focus,
 .navigation__link[href]:hover {
