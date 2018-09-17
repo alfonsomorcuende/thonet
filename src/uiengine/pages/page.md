@@ -13,6 +13,6 @@
 </div>
 
 <div class="margin-bottom-small">
-  <h2>La forma de describir y documentar diseño será única entre diseño y desarrollo</h2>
+  <h2>La forma de describir y documentar componentes será única entre diseño y desarrollo</h2>
   <img src="http://thonet.realized.es/doc/img/home/btn-tokens-example.png"/>
 </div>
