@@ -14,7 +14,9 @@
 .main .content {
   max-width: 980px;
 }
-
+:focus {
+  outline: none !important;
+}
 body p,
 table {
   font-family: 'Lato', sans-serif;
@@ -163,17 +165,21 @@ a.topbar__home{
   display: inline-block;
 }
 .icon.topbar__icon {
-    display: none;
+  display: none;
 }
 button.topbar__toggle.topbar__toggle--menu::after {
-    content: "";
-    display: inline-block;
-    width: 21.33px;
-    height: 32px;
-    background-image: url('http://thonet.realized.es/doc/img/brand/thonet-logo.png');
-    background-size: cover;
-    position: relative;
-    left: -11px;
+  content: "";
+  display: inline-block;
+  width: 21.33px;
+  height: 32px;
+  background-image: url('http://thonet.realized.es/doc/img/brand/thonet-logo.png');
+  background-size: cover;
+  position: relative;
+  left: -11px;
+}
+
+li.navigation__item.navigation__item--level-0:last-child {
+  display: none;
 }
 
 

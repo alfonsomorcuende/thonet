@@ -8,5 +8,3 @@ children:
 - 05-layer
 - 06-builder
 ---
-
-Thonet Design System: Primitivs
