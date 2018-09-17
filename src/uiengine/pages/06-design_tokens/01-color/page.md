@@ -1,4 +1,7 @@
 ---
 title: 🔶 Color tokens
-tokens: !include /src/uiengine/tokens/colors.js
+template: test.ejs
+context:
+  tokens:
+    -<<: !include /src/uiengine/tokens/colors.js
 ---
