@@ -1,4 +1,4 @@
-# Principio 4
+# Principio 4: Propósito
 
 ...En el camino.
 

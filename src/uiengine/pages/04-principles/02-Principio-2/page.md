@@ -1,4 +1,4 @@
-# Principio 2
+# Principio 2: Unidad
 
 El global es superior a la suma de las partes.
 

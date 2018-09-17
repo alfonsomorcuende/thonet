@@ -129,6 +129,7 @@ a.topbar__home{
 }
 .navigation__item.navigation__item--level-1 a{
   color: #2F3542;
+  font-size: 1rem;
 }
 .navigation__item--level-0 .navigation__link,
 .icon.navigation__icon,
@@ -137,6 +138,9 @@ a.topbar__home{
 .topbar__home:focus,
 .topbar__home:hover{
   color: #DA291B;
+}
+.navigation__item--level-0 .navigation__link{
+  font-size: 1rem;
 }
 .icon.navigation__icon{
   fill: #DA291B;

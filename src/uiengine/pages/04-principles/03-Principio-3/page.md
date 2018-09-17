@@ -1,4 +1,4 @@
-# Principio 3
+# Principio 3: Belleza
 
 Eres tan bueno como las cosas que haces.
 

@@ -1,4 +1,4 @@
-# Principio 1
+# Principio 1: Global
 
 Soluciona el problema, no los síntomas.
 
