@@ -1,4 +1,4 @@
-# Coherencia
+# Principio 2: Coherencia
 
  <div class="center">
 
