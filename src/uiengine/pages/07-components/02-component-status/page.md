@@ -25,3 +25,10 @@
 | Navigation | thonetPagination | v0.4 | - | - | - |
 | Forms | thonetInput | v1.0 | - | - | - |
 |  | thonetDropdown | v1.0 | - | - | - |
+
+---
+
+| Tag        | Name   | Definition  |
+| ---------- |--------|-------------|
+| ✅ | Ready | The component is dev and design ready. |
+| - | Not applicable | Component is not available in this version of the library.|
