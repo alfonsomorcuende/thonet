@@ -1,0 +1,17 @@
+global:
+  type: layer
+  category: Layer
+
+props:
+  - name: disabled
+    value: "box-shadow: none;"
+    variable: layerDisabled
+  - name: resting
+    value: "box-shadow: none;"
+    variable: layerResting
+  - name: raised
+    value: "box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);"
+    variable: layerRaised
+  - name: floating
+    value: "box-shadow: 0 8px 10px 0 rgba(0,0,0,0.10);"
+    variable: layerFloating
