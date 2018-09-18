@@ -1,4 +1,4 @@
-# Empatía
+# Principio 3: Empatía
 
  <div class="center">
 

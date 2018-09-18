@@ -81,5 +81,3 @@ Para construirlos, seguimos la misma lógica de variables lighten and darken con
 Para asegurar un sistema de overrides sostenible en los elementos compuestos por las partículas subatómicas del Builder, hemos dotado a los artboards de cada categoría (fill, border, layer y state) de diferentes medidas.
 
 De este modo, para realizar un override en Sketch, la aplicación nos ofrecerá elementos de la misma categoría:
-
-![alt text](http://thonet.realized.es/doc/img/primitivs/builder-sketch_overrides.png "Sketch overrides example")

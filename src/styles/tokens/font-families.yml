@@ -4,7 +4,7 @@ categories:
 
 global:
   type: fontFamily
-  category: fontfamilies
+  category: Font Families
 
 props:
   - name: fontFamilyFallback

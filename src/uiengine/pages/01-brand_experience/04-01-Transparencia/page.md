@@ -1,4 +1,4 @@
-# Transparencia
+# Principio 1: Transparencia
 
  <div class="center">
 
