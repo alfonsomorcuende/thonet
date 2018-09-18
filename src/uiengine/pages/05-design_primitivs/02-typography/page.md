@@ -1,5 +1,5 @@
 ---
-title:  🖋 Tipografía
+title:  🖋 Typography
 ---
 
 La tipografía es uno de los elementos más importantes de un sistema de diseño. Su función jerárquica es clave a la hora de estructurar y organizar el diseño para ofrecer una experiencia de usuario ordenada, clara y concisa.
