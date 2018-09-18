@@ -25,6 +25,8 @@
 | Navigation | thonetPagination | v0.4 | - | - | - |
 | Forms | thonetInput | v1.0 | - | - | - |
 |  | thonetDropdown | v1.0 | - | - | - |
+|  | thonetForm | v1.0 | - | - | - |
+|  | thonetSelect | v1.0 | - | - | - |
 
 ---
 
