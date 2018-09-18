@@ -3,15 +3,11 @@ global:
   category: Layer
 
 props:
-  - name: disabled
+  - name: layerDisabled
     value: "box-shadow: none;"
-    variable: layerDisabled
-  - name: resting
+  - name: layerResting
     value: "box-shadow: none;"
-    variable: layerResting
-  - name: raised
+  - name: layerRaised
     value: "box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);"
-    variable: layerRaised
-  - name: floating
+  - name: layerFloating
     value: "box-shadow: 0 8px 10px 0 rgba(0,0,0,0.10);"
-    variable: layerFloating
