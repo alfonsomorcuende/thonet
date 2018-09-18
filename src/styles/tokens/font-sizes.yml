@@ -1,6 +1,6 @@
 global:
   type: fontSize
-  category: sizes
+  category: Sizes
 
 props:
   - name: desktopFontSize-xxs
