@@ -4,7 +4,7 @@
 
 <div class="margin-bottom-small">
   <h2>Lo que serás capaz de hacer con thonet</h2>
-  <img src="http://thonet.realized.es/doc/img/home/secretplan.png"/>
+  <img src="http://thonet.realized.es/doc/img/home/home-plan.png"/>
 </div>
 
 <div class="margin-bottom-small">
