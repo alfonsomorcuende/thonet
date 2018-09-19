@@ -27,6 +27,7 @@
 </div>
 
 <div class="margin-bottom-small">
-  <h2>La forma de describir y documentar componentes será única entre diseño y desarrollo</h2>
-  <img src="http://thonet.realized.es/doc/img/home/btn-tokens-example.png"/>
+  <h2>La importancia de esta abstracción en un futuro... No tan lejano.</h2>
+  <p>Estamos en la infancia de los sistemas de diseño y su impacto tanto en productos digitales como en las herramientas que utilizamos en sus construcción. Por ejemplo, las decisiones de diseño (Tokens) construirán representaciones visuales de las mismas (Programas de edición visual), estamos seguros es que en un futuro, no tan lejano, esta información será procesada por todos y cada uno de los programas editores que existan en el mercado o los que tengan que venir en el futuro. Seremos capaces de almacenar de forma agnóstica diseño. Lo mismo ocurrirá con la generación de componentes en la tecnología. Thonet y esta versión PRE-BETA son nuestros primeros pasos en este nuevo paradigma.</p>
+  <img src="http://thonet.realized.es/doc/img/home/home-future-plan.png"/>
 </div>
