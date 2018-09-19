@@ -15,12 +15,14 @@
   <h3>Nuestro motor</h3>
 
   <p>A día de hoy usamos una combinación de Tokens de diseño + Theo + Ficheros MD para generar documentación y sketch files, a la vez que trabajamos en nuestros componentes en React. Esta es una versión PRE-BETA de nuestro producto, pero el objetivo del mismo es claro: Transformar esta capa de abstracción en productos reales, documentados y con una capa de visualización en cada uno de nuestros proyectos.</p>
-  
+
   <img src="http://thonet.realized.es/doc/img/home/home-plan.png"/>
 </div>
 
 <div class="margin-bottom-small">
   <h2>Nuestra capa de abstracción de diseño será capaz de ser realmente multiplataforma</h2>
+
+  <p>Los tokens de diseño pueden ser transformados en diferentes salidas para diferentes plataformas: web, iOS o Android. Las decisiones de diseño en producto no serán dependientes de plataforma. Ahora sí tenemos diseños centralizados, escalables y agnósticos en cuanto su tecnología. Un cambio en el repositorio central será inmediatamente adoptado por todas y cada una de las plataformas tecnológicas usadas por un producto.</p>
   <img src="http://thonet.realized.es/doc/img/home/flujo.png"/>  
 </div>
 
