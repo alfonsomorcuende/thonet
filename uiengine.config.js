@@ -4,6 +4,7 @@ module.exports = {
   // For a detailed documentation of all the options in here see
   // https://uiengine.uix.space/basics/config/
   name: 'Thonet',
+  analyticsId: 'UA-125556157-1',
 
   // Base directories for the input, your raw source files:
   // - components is the root of the directory containing the components
