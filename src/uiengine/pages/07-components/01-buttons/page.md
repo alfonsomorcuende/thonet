@@ -4,11 +4,11 @@
 
 ![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Button tokens")
 
+Los botones indican una acción / reacciòn / función concreta que tendrá lugar al hacer click sobre ellos. Generalmente los botones se utilizarán para indicar acciones principales o secundarias, evitando su uso en items de navegación (salvo en el caso concreto de Material Design, que cuenta con un botón de navegación propio.)
+
 ### Definition > Token > Value
 
 Example: main button / default / xlarge
-
-<div class="margin-bottom-large">
 
 
 | Definition        | Token   | Value |
@@ -21,7 +21,18 @@ Example: main button / default / xlarge
 | $fontSize | $desktopFontSizeM | font-size: 1rem; leading: 1:1,5rem; |
 | $spacing | $spacingL | padding: 0 24px; |
 
-</div>
+
+### Usage
+
+| Button type   | Purpose                |
+| ------------- |------------------------|
+| Main | Acciones principales. |
+| Alternative | Acciones secundarias. |
+| Icon button | Botones que requieren iconos para expresar con mayor rapidez y claridad la acción que indican. |
+| Split button | Grupos de botones que expresan más de una opción. Normalmente se utilizará un botón main junto a un alternative. |
+| Navigation button | Elemento de navegación propio de Material Design. Su layer será siempre 'floating'. |
+
+
 
 <div class="margin-bottom-large">
 
