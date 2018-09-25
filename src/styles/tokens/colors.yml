@@ -8,10 +8,22 @@ categories:
 global:
   type: color
 
+### OPTIONS
+
 aliases:
   # Current brand colors
-  colorBrandPrimary: &colorBrandPrimary "#DA291B"
-  colorBrandSecondary: &colorBrandSecondary "#747D8C"
+  primary-base: &colorBrandPrimary "#DA291B"
+  primary-darken: &colorBrandPrimaryDarken "#B8271E"
+  primary-lighten: &colorBrandPrimaryLighten "#F9423A"
+  secondary-base: &colorBrandSecondary "#747D8C"
+  secondary-darken: &colorBrandSecondaryDarken "#2F3542"
+  secondary-lighten: &colorBrandSecondaryLighten "#A4B0BE"
+  tertiary-base: &colorBrandTertiary "#F39C11"
+  tertiary-darken: &colorBrandTertiaryDarken "#E67E22"
+  tertiary-lighten: &colorBrandTertiaryLighten "#F1C30F"
+  quaternary-base: &colorBrandQuaternary "#53565A"
+  quaternary-darken: &colorBrandQuaternaryDarken "#3D3F42"
+  quaternary-lighten: &colorBrandQuaternaryLighten ""
 
   # UI / Support
   info: &info "#17A2B9"
@@ -72,12 +84,12 @@ props:
     category: *brand
 
   - name: primary-darken
-    value: "#B8271E"
+    value: *colorBrandPrimaryDarken
     comment: Color primario de marca oscuro
     category: *brand
 
   - name: primary-lighten
-    value: "#F9423A"
+    value: *colorBrandPrimaryLighten
     comment: Color primario de marca claro
     category: *brand
 
@@ -87,37 +99,37 @@ props:
     category: *brand
 
   - name: secondary-darken
-    value: "#2F3542"
+    value: *colorBrandSecondaryDarken
     comment: Color secundario de marca oscuro
     category: *brand
 
   - name: secondary-ligthen
-    value: "#A4B0BE"
+    value: *colorBrandSecondaryLighten
     comment: Color secundario de marca claro
     category: *brand
 
   - name: tertiary-base
-    value: "#F39C11"
+    value: *colorBrandTertiary
     comment: Color terciario de marca
     category: *brand
 
   - name: tertiary-darken
-    value: "#E67E22"
+    value: *colorBrandTertiaryDarken
     comment: Color terciario de marca oscuro
     category: *brand
 
   - name: tertiary-ligthen
-    value: "#F1C30F"
+    value: *colorBrandTertiaryLighten
     comment: Color terciario de marca claro
     category: *brand
 
   - name: quaternary-base
-    value: "#53565A"
+    value: *colorBrandQuaternary
     comment: Color cuaternario de marca
     category: *brand
 
   - name: quaternary-darken
-    value: "#3D3F42"
+    value: *colorBrandQuaternaryDarken
     comment: Color cuaternario marca oscuro
     category: *brand
 
