@@ -23,7 +23,7 @@ aliases:
   tertiary-lighten: &colorBrandTertiaryLighten "#F1C30F"
   quaternary-base: &colorBrandQuaternary "#53565A"
   quaternary-darken: &colorBrandQuaternaryDarken "#3D3F42"
-  quaternary-lighten: &colorBrandQuaternaryLighten ""
+  quaternary-lighten: &colorBrandQuaternaryLighten "#D0D0CE"
 
   # UI / Support
   info: &info "#17A2B9"
@@ -134,7 +134,7 @@ props:
     category: *brand
 
   - name: quaternary-ligthen
-    value: "#D0D0CE"
+    value: *colorBrandQuaternaryLighten
     comment: Color cuaternario de marca claro
     category: *brand
 
@@ -310,3 +310,18 @@ props:
   - name: youtube
     value: *youtube
     category: *ui/social
+
+
+    ### CHOICES
+
+background:
+  background-color-main: *colorBrandPrimary
+  background-color-alternative: *white
+  background-color-mainNegative: *colorBrandPrimaryLighten
+  background-color-info: *info
+  background-color-warning: *warning
+  background-color-cancel: *error
+  background-color-success: *success
+
+border:
+  border-color-main: *colorBrandPrimary
