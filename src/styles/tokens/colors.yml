@@ -53,9 +53,9 @@ aliases:
   lighter-gray: &lighter-gray "#FBFBFB"
 
   # UI / Link
-  default: &default "#0000EE"
-  visited: &visited "#551A8B"
-  active: &active "#FF0000"
+  default: &linkDefault "#0000EE"
+  visited: &linkVisited "#551A8B"
+  active: &linkActive "#FF0000"
   :hover: &:hover "#0202BD"
 
   # UI / Social
@@ -235,15 +235,15 @@ props:
 
   # ui/link
   - name: default
-    value: *default
+    value: *linkDefault
     category: *ui/link
 
   - name: visited
-    value: *visited
+    value: *linkVisited
     category: *ui/link
 
   - name: active
-    value: *active
+    value: *linkActive
     category: *ui/link
 
   - name: :hover
@@ -314,14 +314,21 @@ props:
 
     ### CHOICES
 
-background:
-  background-color-main: *colorBrandPrimary
-  background-color-alternative: *white
-  background-color-mainNegative: *colorBrandPrimaryLighten
-  background-color-info: *info
-  background-color-warning: *warning
-  background-color-cancel: *error
-  background-color-success: *success
+# Buttons
+fill:
+  fill-color-main: *colorBrandPrimary
+  fill-color-alternative: *white
+  fill-color-mainNegative: *colorBrandPrimaryLighten
+  fill-color-info: *info
+  fill-color-warning: *warning
+  fill-color-cancel: *error
+  fill-color-success: *success
 
 border:
   border-color-main: *colorBrandPrimary
+  border-color-alternative: *colorBrandPrimary
+
+text:
+  default: *white
+  negative: *colorBrandPrimary
+  link: *linkDefault
