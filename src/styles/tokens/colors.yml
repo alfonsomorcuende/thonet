@@ -313,8 +313,13 @@ props:
 
 
     ### CHOICES
+# Backgrounds
+
+backgrounds:
+  background-color-neutral: *light-gray
 
 # Buttons
+
 fill:
   fill-color-main: *colorBrandPrimary
   fill-color-alternative: *white
