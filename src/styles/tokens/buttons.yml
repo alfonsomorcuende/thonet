@@ -1,0 +1,23 @@
+global:
+  type: component
+  category: Button
+
+btn-simple-main:
+  fill-color:
+    default: $main
+    hover: $hover
+    visited: $visited
+    disabled: $disabled
+  border-color: none
+  text-color: $default
+  text-size: $default
+  fill-shape: $all-4px
+  size:
+    s:
+      height: 32px
+    m:
+      height: 40px
+    l:
+      height: 48px
+    xl:
+      height: 56px

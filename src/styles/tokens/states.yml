@@ -1,0 +1,13 @@
+global:
+  type: state
+  category: States
+
+props:
+  - name: default
+    value: &default "none"
+  - name: hover
+    value: &hover "rgba(*dark-gray, .6)"
+  - name: visited
+    value: &visited "rgba(*dark-gray, .7)"
+  - name: disabled
+    value: &disabled "rgba(*white, .7)"
