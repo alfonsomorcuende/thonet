@@ -83,7 +83,6 @@ props:
 
 ### DECISIONS
 
-buttons:
-  btn-small: *desktop-font-size-m
-  btn-medium: *desktop-font-size-m
-  btn-large: *desktop-font-size-m
+btn-text-size:
+  default: *desktop-font-size-m
+  xlarge: *desktop-font-size-l
