@@ -3,79 +3,87 @@ global:
   category: Sizes
 
 props:
-  - name: desktopFontSize-xxs
-    value: .625rem
-  - name: desktopFontSize-xs
-    value: .75rem
-  - name: desktopFontSize-s
-    value: .875rem
-  - name: desktopFontSize-m
-    value: 1rem
-  - name: desktopFontSize-l
-    value: 1.25rem
-  - name: desktopFontSize-xl
-    value: 1.5rem
-  - name: desktopFontSize-xxl
-    value: 1.75rem
-  - name: desktopFontSize-head3
-    value: 2rem
-  - name: desktopFontSize-head2
-    value: 2.5rem
-  - name: desktopFontSize-head1
-    value: 2.875rem
-  - name: desktopFontSize-disp3
-    value: 3.625rem
-  - name: desktopFontSize-disp2
-    value: 4rem
-  - name: desktopFontSize-disp1
-    value: 4.5rem
-  - name: tabletFontSize-xxs
-    value: .625rem
-  - name: tabletFontSize-xs
-    value: .75rem
-  - name: tabletFontSize-s
-    value: .875rem
-  - name: tabletFontSize-m
-    value: 1rem
-  - name: tabletFontSize-l
-    value: 1.125rem
-  - name: tabletFontSize-xl
-    value: 1.25rem
-  - name: tabletFontSize-xxl
-    value: 1.5rem
-  - name: tabletFontSize-head3
-    value: 1.75rem
-  - name: tabletFontSize-head2
-    value: 2rem
-  - name: tabletFontSize-head1
-    value: 2.25rem
-  - name: tabletFontSize-disp3
-    value: 2.875rem
-  - name: tabletFontSize-disp2
-    value: 3.25rem
-  - name: tabletFontSize-disp1
-    value: 3.625rem
-  - name: mobFontSize-xs
-    value: .75rem
-  - name: mobFontSize-s
-    value: .875rem
-  - name: mobFontSize-m
-    value: 1rem
-  - name: mobFontSize-l
-    value: 1.125rem
-  - name: mobFontSize-xl
-    value: 1.25rem
-  - name: mobFontSize-xxl
-    value: 1.5rem
-  - name: mobFontSize-head3
-    value: 1.75rem
-  - name: mobFontSize-head2
-    value: 2rem
-  - name: mobFontSize-head1
-    value: 2.25rem
-  - name: mobFontSize-disp3
-    value: 2.5rem
-  - name: mobFontSize-disp2
-    value: 2.875rem
-  - name: mobFontSize-disp1
-    value: 3.25rem
+  - name: desktop-font-size-xxs
+    value: &desktop-font-size-xxs ".625rem"
+  - name: desktop-font-size-xs
+    value: &desktop-font-size-xs ".75rem"
+  - name: desktop-font-size-s
+    value: &desktop-font-size-s ".875rem"
+  - name: desktop-font-size-m
+    value: &desktop-font-size-m "1rem"
+  - name: desktop-font-size-l
+    value: &desktop-font-size-l "1.25rem"
+  - name: desktop-font-size-xl
+    value: &desktop-font-size-xl "1.5rem"
+  - name: desktop-font-size-xxl
+    value: &desktop-font-size-xxl "1.75rem"
+  - name: desktop-font-size-head-3
+    value: &desktop-font-size-head-3 "2rem"
+  - name: desktop-font-size-head-2
+    value: &desktop-font-size-head-2 "2.5rem"
+  - name: desktop-font-size-head-1
+    value: &desktop-font-size-head-1 "2.875rem"
+  - name: desktop-font-size-disp-3
+    value: &desktop-font-size-disp-3 "3.625rem"
+  - name: desktop-font-size-disp-2
+    value: &desktop-font-size-disp-2 "4rem"
+  - name: desktop-font-size-disp-1
+    value: &desktop-font-size-disp-1 "4.5rem"
+  - name: tablet-font-size-xxs
+    value: &tablet-font-size-xxs ".625rem"
+  - name: tablet-font-size-xs
+    value: &tablet-font-size-xs ".75rem"
+  - name: tablet-font-size-s
+    value: &tablet-font-size-s ".875rem"
+  - name: tablet-font-size-m
+    value: &tablet-font-size-m "1rem"
+  - name: tablet-font-size-l
+    value: &tablet-font-size-l "1.125rem"
+  - name: tablet-font-size-xl
+    value: &tablet-font-size-xl "1.25rem"
+  - name: tablet-font-size-xxl
+    value: &tablet-font-size-xxl "1.5rem"
+  - name: tablet-font-size-head-3
+    value: &tablet-font-size-head-3 "1.75rem"
+  - name: tablet-font-size-head-2
+    value: &tablet-font-size-head-2 "2rem"
+  - name: tablet-font-size-head-1
+    value: &tablet-font-size-head-1 "2.25rem"
+  - name: tablet-font-size-disp-3
+    value: &tablet-font-size-disp-3 "2.875rem"
+  - name: tablet-font-size-disp-2
+    value: &tablet-font-size-disp-2 "3.25rem"
+  - name: tablet-font-size-disp-1
+    value: &tablet-font-size-disp-1 "3.625rem"
+  - name: mob-font-size-xs
+    value: &mob-font-size-xs ".75rem"
+  - name: mob-font-size-s
+    value: &mob-font-size-s ".875rem"
+  - name: mob-font-size-m
+    value: &mob-font-size-m "1rem"
+  - name: mob-font-size-l
+    value: &mob-font-size-l "1.125rem"
+  - name: mob-font-size-xl
+    value: &mob-font-size-xl "1.25rem"
+  - name: mob-font-size-xxl
+    value: &mob-font-size-xxl "1.5rem"
+  - name: mob-font-size-head-3
+    value: &mob-font-size-head-3 "1.75rem"
+  - name: mob-font-size-head-2
+    value: &mob-font-size-head-2 "2rem"
+  - name: mob-font-size-head-1
+    value: &mob-font-size-head-1 "2.25rem"
+  - name: mob-font-size-disp-3
+    value: &mob-font-size-disp-3 "2.5rem"
+  - name: mob-font-size-disp-2
+    value: &mob-font-size-disp-2 "2.875rem"
+  - name: mob-font-size-disp-1
+    value: &mob-font-size-disp-1 "3.25rem"
+
+
+### DECISIONS
+
+buttons:
+  btn-small: *desktop-font-size-m
+  btn-medium: *desktop-font-size-m
+  btn-large: *desktop-font-size-m

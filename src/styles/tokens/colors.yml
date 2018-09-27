@@ -12,18 +12,18 @@ global:
 
 aliases:
   # Current brand colors
-  primary-base: &colorBrandPrimary "#DA291B"
-  primary-darken: &colorBrandPrimaryDarken "#B8271E"
-  primary-lighten: &colorBrandPrimaryLighten "#F9423A"
-  secondary-base: &colorBrandSecondary "#747D8C"
-  secondary-darken: &colorBrandSecondaryDarken "#2F3542"
-  secondary-lighten: &colorBrandSecondaryLighten "#A4B0BE"
-  tertiary-base: &colorBrandTertiary "#F39C11"
-  tertiary-darken: &colorBrandTertiaryDarken "#E67E22"
-  tertiary-lighten: &colorBrandTertiaryLighten "#F1C30F"
-  quaternary-base: &colorBrandQuaternary "#53565A"
-  quaternary-darken: &colorBrandQuaternaryDarken "#3D3F42"
-  quaternary-lighten: &colorBrandQuaternaryLighten "#D0D0CE"
+  primary-base: &brand-primary "#DA291B"
+  primary-darken: &brand-primary-darken "#B8271E"
+  primary-lighten: &brand-primary-lighten "#F9423A"
+  secondary-base: &brand-secondary "#747D8C"
+  secondary-darken: &brand-secondary-darken "#2F3542"
+  secondary-lighten: &brand-secondary-lighten "#A4B0BE"
+  tertiary-base: &brand-tertiary "#F39C11"
+  tertiary-darken: &brand-tertiary-darken "#E67E22"
+  tertiary-lighten: &brand-tertiary-lighten "#F1C30F"
+  quaternary-base: &brand-quaternary "#53565A"
+  quaternary-darken: &brand-quaternary-darken "#3D3F42"
+  quaternary-lighten: &brand-quaternary-lighten "#D0D0CE"
 
   # UI / Support
   info: &info "#17A2B9"
@@ -53,10 +53,10 @@ aliases:
   lighter-gray: &lighter-gray "#FBFBFB"
 
   # UI / Link
-  default: &linkDefault "#0000EE"
-  visited: &linkVisited "#551A8B"
-  active: &linkActive "#FF0000"
-  :hover: &:hover "#0202BD"
+  default: &link-default "#0000EE"
+  visited: &link-visited "#551A8B"
+  active: &link-active "#FF0000"
+  :hover: &link-hover "#0202BD"
 
   # UI / Social
   behance: &behance "#1769FF"
@@ -76,65 +76,67 @@ aliases:
   youtube: &youtube "#FF0000"
 
 
+### TOKENS FOR DOCUMENTATION
+
 props:
   # brand
   - name: primary-base
-    value: *colorBrandPrimary
+    value: *brand-primary
     comment: Color primario de marca
     category: *brand
 
   - name: primary-darken
-    value: *colorBrandPrimaryDarken
+    value: *brand-primary-darken
     comment: Color primario de marca oscuro
     category: *brand
 
   - name: primary-lighten
-    value: *colorBrandPrimaryLighten
+    value: *brand-primary-lighten
     comment: Color primario de marca claro
     category: *brand
 
   - name: secondary-base
-    value: *colorBrandSecondary
+    value: *brand-secondary
     comment: Color secundario de marca
     category: *brand
 
   - name: secondary-darken
-    value: *colorBrandSecondaryDarken
+    value: *brand-secondary-darken
     comment: Color secundario de marca oscuro
     category: *brand
 
   - name: secondary-ligthen
-    value: *colorBrandSecondaryLighten
+    value: *brand-secondary-lighten
     comment: Color secundario de marca claro
     category: *brand
 
   - name: tertiary-base
-    value: *colorBrandTertiary
+    value: *brand-tertiary
     comment: Color terciario de marca
     category: *brand
 
   - name: tertiary-darken
-    value: *colorBrandTertiaryDarken
+    value: *brand-tertiary-darken
     comment: Color terciario de marca oscuro
     category: *brand
 
   - name: tertiary-ligthen
-    value: *colorBrandTertiaryLighten
+    value: *brand-tertiary-lighten
     comment: Color terciario de marca claro
     category: *brand
 
   - name: quaternary-base
-    value: *colorBrandQuaternary
+    value: *brand-quaternary
     comment: Color cuaternario de marca
     category: *brand
 
   - name: quaternary-darken
-    value: *colorBrandQuaternaryDarken
+    value: *brand-quaternary-darken
     comment: Color cuaternario marca oscuro
     category: *brand
 
   - name: quaternary-ligthen
-    value: *colorBrandQuaternaryLighten
+    value: *brand-quaternary-lighten
     comment: Color cuaternario de marca claro
     category: *brand
 
@@ -235,19 +237,19 @@ props:
 
   # ui/link
   - name: default
-    value: *linkDefault
+    value: *link-default
     category: *ui/link
 
   - name: visited
-    value: *linkVisited
+    value: *link-visited
     category: *ui/link
 
   - name: active
-    value: *linkActive
+    value: *link-active
     category: *ui/link
 
   - name: :hover
-    value: "{!:hover}"
+    value: *link-hover
     category: *ui/link
 
   # ui/social
@@ -312,28 +314,30 @@ props:
     category: *ui/social
 
 
-    ### CHOICES
+### DECISIONS
+
 # Backgrounds
 
-backgrounds:
-  background-color-neutral: *light-gray
+background-color:
+  neutral: *light-gray
 
-# Buttons
+# Components
 
-fill:
-  fill-color-main: *colorBrandPrimary
-  fill-color-alternative: *white
-  fill-color-mainNegative: *colorBrandPrimaryLighten
-  fill-color-info: *info
-  fill-color-warning: *warning
-  fill-color-cancel: *error
-  fill-color-success: *success
+fill-color:
+  main: *brand-primary
+  alternative: *white
+  main-negative: *brand-primary-lighten
+  info: *info
+  warning: *warning
+  cancel: *error
+  confirm: *success
 
-border:
-  border-color-main: *colorBrandPrimary
-  border-color-alternative: *colorBrandPrimary
+border-color:
+  main: none
+  alternative: *brand-primary
+  alternative-negative: *brand-primary-lighten
 
-text:
+text-color:
   default: *white
-  negative: *colorBrandPrimary
-  link: *linkDefault
+  negative: *brand-primary
+  link: *link-default
