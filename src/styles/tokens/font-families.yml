@@ -6,18 +6,26 @@ global:
   type: fontFamily
   category: Font Families
 
+### OPTIONS
+
 props:
   - name: fontFamilyFallback
     value: Helvetica, Arial, Tahoma, Verdana, sans-serif
-  - name: fontFamily1Regular
-    value: $font-face-barlow-regular, $font-family-fallback
-  - name: fontFamily1Bold
-    value: $font-face-barlow-bold, $font-family-fallback
-  - name: fontFamily1Black
-    value: $font-face-barlow-black, $font-family-fallback
-  - name: fontFamily2Light
-    value: $font-face-lato-light, $font-family-fallback
-  - name: fontFamily2Regular
-    value: $font-face-lato-regular, $font-family-fallback
-  - name: fontFamily2Bold
-    value: $font-face-lato-bold, $font-family-fallback
+  - name: font-family-1-regular
+    value: &font-family-1-regular $font-face-barlow-regular, $font-family-fallback
+  - name: font-family-1-bold
+    value: &font-family-1-bold $font-face-barlow-bold, $font-family-fallback
+  - name: font-family-1-black
+    value: &font-family-1-black $font-face-barlow-black, $font-family-fallback
+  - name: font-family-2-light
+    value: &font-family-2-light $font-face-lato-light, $font-family-fallback
+  - name: font-family-2-regular
+    value: &font-family-2-regular $font-face-lato-regular, $font-family-fallback
+  - name: font-family-2-bold
+    value: &font-family-2-bold $font-face-lato-bold, $font-family-fallback
+
+### DECISIONS
+
+btn-font-family:
+  default: *font-family-1-bold
+  small: *font-family-1-regular
