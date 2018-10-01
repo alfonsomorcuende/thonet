@@ -4,14 +4,14 @@ global:
 
 btn-simple-main:
   fill-color:
-    default: $main
-    hover: $hover
-    visited: $visited
-    disabled: $disabled
+    default: *main
+    hover: *hover
+    visited: *visited
+    disabled: *disabled
   border-color: none
-  text-color: $default
-  text-size: $default
-  fill-shape: $all-4px
+  text-color: *default
+  text-size: *default
+  fill-shape: *all-4px
   size:
     s:
       height: 32px
