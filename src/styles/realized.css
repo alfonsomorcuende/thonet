@@ -88,6 +88,10 @@ hr {
 .margin-bottom-large{
   margin-bottom: 160px;
 }
+p.caption {
+    font-size: 0.7rem;
+    margin-top: 0;
+}
 
 /* HEADER */
 

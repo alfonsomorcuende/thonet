@@ -13,6 +13,8 @@ Capaz de compartir el conocimiento en lugar de imponerlo. De acompañar en lugar
 
 ![alt text](http://thonet.realized.es/doc/img/brand/voice-and-tone/maestra.png "Justa Freire")
 
+<p class="caption">© Legado Justa Freire, Fundación Ángel Llorca.</p>
+
 <a class="brand-link" href="https://es.wikipedia.org/wiki/Justa_Freire">Justa Freire</a>
 
 ### Consultora
@@ -20,6 +22,8 @@ Capaz de compartir el conocimiento en lugar de imponerlo. De acompañar en lugar
 Que acompaña en lugar de señalar el camino. Que no tiene miedo a hacer públicos sus errores, porque son parte del proceso. Que es capaz de corregir y rectificar, de adaptarse y de no dar nada por sentado.
 
 ![alt text](http://thonet.realized.es/doc/img/brand/voice-and-tone/consultora.png "Gerda Taro")
+
+<p class="caption">© Estate of Fred Stein, Fredstein.com.</p>
 
 <a class="brand-link" href="https://es.wikipedia.org/wiki/Gerda_Taro">Gerda Taro</a>
 
@@ -30,5 +34,7 @@ Porque al fin y al cabo nuestro trabajo es contar cosas, a través de pantallas,
 Nunca inventamos ni suponemos, nos basamos en hechos. No escribimos ficción, lo nuestro son los ensayos de realidad.
 
 ![alt text](http://thonet.realized.es/doc/img/brand/voice-and-tone/escritora.png "Virginia Woolf")
+
+<p class="caption">© Retrato de Virginia Woolf (25 de enero de 1882 – 28 de marzo de 1941), autor británico feminista.</p>
 
 <a class="brand-link" href="https://es.wikipedia.org/wiki/Virginia_Woolf">Virginia Woolf</a>
