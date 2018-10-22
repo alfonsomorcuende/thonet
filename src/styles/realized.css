@@ -18,7 +18,8 @@
   outline: none !important;
 }
 body p,
-table {
+table,
+.main .subtitle {
   font-family: 'Lato', sans-serif;
   margin-bottom: 24px !important;
 }
@@ -56,6 +57,15 @@ table {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 16px;
+}
+.main .subtitle{
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.main h4 {
+  margin-bottom: 16px !important;
+  font-weight: 600;
 }
 h2.medium-title::before {
     content: "";

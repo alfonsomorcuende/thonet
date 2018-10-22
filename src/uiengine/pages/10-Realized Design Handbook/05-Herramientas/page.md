@@ -15,17 +15,17 @@
 
 [Abstract](https://www.goabstract.com/) es una aplicación que permite aplicar a Sketch un control de versiones al estilo Git, pero con interfaz. Se puede utilizar tanto en webapp como en su propia aplicación nativa para el ordenador ([descargar](https://app.goabstract.com/download)).
 
-### Los motivos
+<h3 class="subtitle">Los motivos</h3>
 
 El control de versiones de Abstract permite que varios diseñadores del equipo puedan, de forma colaborativa, trabajar en el mismo archivo, evitando crear versiones duplicadas del proyecto y protegiendo el siempre el trabajo. Además, establece y asienta algunos procesos a la hora de trabajar.
 
-### La organización en abstract
+<h3 class="subtitle">La organización en Abstract</h3>
 
 De un primer vistazo, en Abstract diferenciamos los proyectos de los repositorios a través de las iniciales P y R como sufijos de cada título:
 
 ![Abstract projects organization](http://thonet.realized.es/doc/img/handbook/abstract-projects-organization.png "Abstract Projects Organization")
 
-### Organización de archivos dentro de un proyecto o repositorio
+<h3 class="subtitle">Organización de archivos dentro de un proyecto o repositorio</h3>
 
 Encontraremos archivos de Sketch  diferentes si se trata de un proyecto o un repositorio:
 
@@ -35,7 +35,8 @@ Encontraremos archivos de Sketch  diferentes si se trata de un proyecto o un rep
 - Repositorio:
   - Librerías propias del repositorio disponibles para enlazar desde cualquier proyecto de Abstract.
 
-### Conceptos, procesos y nomenclatura
+
+<h3 class="subtitle">Conceptos, procesos y nomenclatura</h3>
 
 #### Master
 
@@ -68,14 +69,14 @@ Un **merge** es la fusión de nuestra rama personal con la rama master. Es la fo
 
 Para que un merge se lleve a cabo, previamente se ha de pedir un **pull request** que ha de validar el Project Manager para que los cambios suban a la rama master.
 
-### Procesos en Abstract
+<h3 class="subtitle">Procesos en Abstract</h3>
 
 #### Repositorio - Creación de un nuevo primitive o componente
 
 1. Creación de una **nueva rama** desde Master, aplicando la nomenclatura correspondiente (Código de la tarea - Descripción - Nombre de usuario)
 2. Creación del archivo de Sketch directamente en Abstract como **librería**. La nomenclatura variará en función de si se trata de un primitive o un componente:
-  - **Primitive:** Letra del alfabeto correspondiente / nombre del primitive → a / color.sketch
-  - **Componente:** Número de tres cifras / c / nombre del componente → 001 / c / control buttons (la c del medio hace alusión a que se trata de un componente).
+    - **Primitive:** Letra del alfabeto correspondiente / nombre del primitive → a / color.sketch
+    - **Componente:** Número de tres cifras / c / nombre del componente → 001 / c / control buttons (la c del medio hace alusión a que se trata de un componente).
 3. Creación de **commits** siguiendo la nomenclatura correspondiente.
 4. Una vez el trabajo esté realizado, se creará la petición de un **pull request**.
 5. Una vez validado el pull request por el Product Manager, se realizará el **merge** de la rama a Master.
@@ -100,7 +101,7 @@ Para que un merge se lleve a cabo, previamente se ha de pedir un **pull request*
 
 [Sketch](https://www.sketchapp.com/) es una herramienta de diseño vectorial que utilizamos para construir tanto el prototipado como  el visual de los productos en los que trabajamos. Es también la herramienta en la que diseñamos y materializamos las librerías de Thonet Design System.
 
-### Estructura de Thonet
+<h3 class="subtitle">Estructura de Thonet</h3>
 
 En el caso de Thonet DS, se ha de tener en cuenta que existe un archivo de Sketch por cada **primitive** y cada **componente** que, a su vez, son librerías enlazables a cualquier otro proyecto dentro de Abstract:
 
@@ -112,7 +113,7 @@ Entre los archivos primitives y los de componentes, existe un archivo de **Themi
 
 ![Primitives > Theming > Components](http://thonet.realized.es/doc/img/handbook/primitives-theming-components.png "Primitives > Theming > Components")
 
-### Dentro de Sketch
+<h3 class="subtitle">Dentro de Sketch</h3>
 
 Una vez dentro de Sketch, cada uno de los archivos que componen Thonet DS cuentan con una página dedicada a la **documentación** de ese primitive o componente y otra para los símbolos que componen la librería.
 
@@ -122,7 +123,7 @@ Todos los primitives están almacenados en símbolos salvo la tipografía, que s
 
 Para garantizar el buen funcionamiento de las librerías de Thonet DS es fundamental la nomenclatura de los símbolos, ordenados deliberadamente en un **listado alfabético**. En primer lugar, Sketch tomará como referencia el propio nombre del archivo marcado como librería y, a partir de ahí, el nombre del artboard de cada símbolo (en la sección de Plugins encontrarás algunos para facilitar la tarea de mantener ordenados los nombres de los artboards y las capas):
 
-(SCREENSHOT)
+![Anidación de símbolos en Sketch](http://thonet.realized.es/doc/img/handbook/sketch-anidacion-simbolos.png "Anidación de símbolos en Sketch")
 
 Cómo nombrar los artboards / símbolos:
 
