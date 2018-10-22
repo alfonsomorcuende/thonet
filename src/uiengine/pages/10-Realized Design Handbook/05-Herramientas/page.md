@@ -9,7 +9,7 @@
 - [Git](#git)
 - [UIengine](#uiengine)
 
-<a id="#abstract"></a>
+<a id="abstract"></a>
 
 <h2 class="medium-title abstract">ABSTRACT</h2>
 
@@ -95,7 +95,7 @@ Para que un merge se lleve a cabo, previamente se ha de pedir un **pull request*
 ***
 &nbsp;
 
-<a id="#sketch"></a>
+<a id="sketch"></a>
 
 <h2 class="medium-title sketch">SKETCH / THONET</h2>
 
