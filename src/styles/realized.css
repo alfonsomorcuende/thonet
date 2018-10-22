@@ -26,6 +26,7 @@ table {
 .main .big-title,
 .main .title,
 .main .contentheader__title,
+.main .medium-title,
 #navigation,
 #navigation-root,
 .navigation__item.navigation__item--level-0.navigation__item--children,
@@ -50,6 +51,39 @@ table {
 }
 .main .red{
   color: #DA291B;
+}
+.main .medium-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+h2.medium-title::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+h2.medium-title.abstract::before {
+    background-image: url('http://thonet.realized.es/doc/img/handbook/abstract.svg');
+}
+h2.medium-title.sketch::before {
+    background-image: url('http://thonet.realized.es/doc/img/handbook/sketch.svg');
+}
+h2.medium-title.slack::before {
+    background-image: url('http://thonet.realized.es/doc/img/handbook/slack.svg');
+}
+h2.medium-title.atom::before {
+    background-image: url('http://thonet.realized.es/doc/img/handbook/atom.svg');
+}
+h2.medium-title.git::before {
+    background-image: url('http://thonet.realized.es/doc/img/handbook/git.svg');
+}
+h2.medium-title.uiengine::before {
+    background-image: url('http://thonet.realized.es/doc/img/handbook/uiengine.svg');
 }
 hr {
   border: 1px solid #f4f4f4 !important;
