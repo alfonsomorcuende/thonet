@@ -13,7 +13,8 @@
 
 <h2 class="medium-title abstract">ABSTRACT</h2>
 
-[Abstract](https://www.goabstract.com/) es una aplicación que permite aplicar a Sketch un control de versiones al estilo Git, pero con interfaz. Se puede utilizar tanto en webapp como en su propia aplicación nativa para el ordenador ([descargar app](https://app.goabstract.com/download)).
+[Abstract](https://www.goabstract.com/) es una aplicación que permite aplicar a Sketch un control de versiones al estilo Git, pero con interfaz. Se puede utilizar tanto en webapp como en su propia aplicación nativa para el ordenador ([descargar applos
+  ](https://app.goabstract.com/download)).
 
 <h3 class="subtitle">Los motivos</h3>
 
