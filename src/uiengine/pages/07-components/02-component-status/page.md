@@ -13,15 +13,17 @@
 |  | thonetButtonSplitRight | v0.1 | ✅ | ✅ | - |
 |  | thonetButtonSplitCenter | v0.1 | ✅ | ✅ | - |
 |  | thonetNavigationButton | v0.1 | ✅ | ✅ | - |
-|  | thonetCheckboxS | v0.2 | - | - | - |
-|  | thonetCheckboxM | v0.2 | - | - | - |
-|  | thonetCheckboxL | v0.2 | - | - | - |
-|  | thonetRadiobtnS | v0.2 | - | - | - |
-|  | thonetRadiobtnM | v0.2 | - | - | - |
-|  | thonetRadiobtnL | v0.2 | - | - | - |
+|  | thonetCheckboxS | v0.2 | ✅ | - | - |
+|  | thonetCheckboxM | v0.2 | ✅ | - | - |
+|  | thonetCheckboxL | v0.2 | ✅ | - | - |
+|  | thonetRadiobtnS | v0.2 | ✅ | - | - |
+|  | thonetRadiobtnM | v0.2 | ✅ | - | - |
+|  | thonetRadiobtnL | v0.2 | ✅ | - | - |
+|  | thonetToggleS | v0.3 | ✅ | - | - |
+|  | thonetToggleM | v0.3 | ✅ | - | - |
+|  | thonetToggleL | v0.3 | ✅ | - | - |
+|  | thonetToggleXL | v0.3 | ✅ | - | - |
 |  | thonetSlider | v0.3 | - | - | - |
-|  | thonetToggleM | v0.3 | - | - | - |
-|  | thonetToggleL | v0.3 | - | - | - |
 | Navigation | thonetPagination | v0.4 | - | - | - |
 | Forms | thonetInput | v1.0 | - | - | - |
 |  | thonetDropdown | v1.0 | - | - | - |
