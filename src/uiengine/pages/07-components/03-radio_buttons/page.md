@@ -8,7 +8,7 @@ Los radio buttons se utilizan para ofrecer listas de dos o más opciones excluye
 
 ### Definition > Token > Value
 
-Example: label / right / active / on / focused / large
+Example: left / checked / active / focused / large
 
 | Definition        | Token   | Value |
 | ------------- |-------------| ----------|
@@ -23,10 +23,10 @@ Example: label / right / active / on / focused / large
 
 ### Usage
 
-| Checkbox type   | Purpose                |
+| Radio button type   | Purpose           |
 | ------------- |------------------------|
-| Label | Enumeración y distinción entre las diferentes opciones que se ofrecen al usuario. |
-| No label | Uso el input del checkbox de manera independiente. |
+| Selected | Indica la opción seleccionada. Por defecto, en un grupo de radio buttons debe haber una opción seleccionada. |
+| Unselected | Muestra una opción a elegir. Nunca ha de mostrarse un grupo de radio buttons vacíos. |
 
 
 
