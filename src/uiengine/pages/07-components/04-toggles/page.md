@@ -1,10 +1,10 @@
-# Radio Buttons
+# Toggles
 
 ### Definición
 
 ![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Button tokens")
 
-Los radio buttons se utilizan para ofrecer listas de dos o más opciones excluyentes entre sí, de manera que el usuario sólo puede elegir una de ellas.
+Los toggles son controles que ofrecen la posibildad de cambiar rápidamente entre dos estados concretos diferentes (por ejemplo: on/off).
 
 ### Definition > Token > Value
 
