@@ -2,7 +2,11 @@
 
 ### Definición
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Button tokens")
+<div class="margin-small">
+  <div class="left-image medium">
+    <img alt="button tokens" src="http://thonet.realized.es/doc/img/components/btn-tokens.png"/>
+  </div>
+</div>
 
 [Codepen](https://codepen.io/luisjmontoro/project/editor/ZwWoKL)
 

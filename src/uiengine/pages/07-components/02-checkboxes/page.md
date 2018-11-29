@@ -2,7 +2,13 @@
 
 ### Definición
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Button tokens")
+<div class="margin-small">
+  <div class="left-image medium">
+    <img alt="Checkbox tokens" src="http://thonet.realized.es/doc/img/components/checkbox-tokens.png"/>
+  </div>
+</div>
+
+
 
 Los checkboxes se utilizan cuando ofrecemos una lista de opciones al usuario de manera que éste pueda marcar una, todas o ninguna.
 
@@ -37,7 +43,7 @@ Example: label / right / active / on / focused / large
 Example: label / value / on / active / default
 
 <div class="left-image large">
-  <img alt="Button sizes" src="http://thonet.realized.es/doc/img/components/btn-sizes.png"/>
+  <img alt="Checkbox sizes" src="http://thonet.realized.es/doc/img/components/checkbox-sizes.png"/>
 </div>
 
 </div>
@@ -49,7 +55,7 @@ Example: label / value / on / active / default
 Example: label / value / on / medium
 
 <div class="left-image large">
-  <img alt="Button states" src="http://thonet.realized.es/doc/img/components/btn-states.png"/>
+  <img alt="Checkbox states" src="http://thonet.realized.es/doc/img/components/checkbox-states.png"/>
 </div>
 
 </div>
@@ -60,8 +66,8 @@ Example: label / value / on / medium
 
 Example: active / value / default / on / medium
 
-<div class="left-image large">
-  <img style="width: 677px;" alt="Button types" src="http://thonet.realized.es/doc/img/components/btn-types.png"/>
+<div class="left-image medium">
+  <img style="width: 677px;" alt="Checkbox types" src="http://thonet.realized.es/doc/img/components/checkbox-types.png"/>
 </div>
 
 </div>
@@ -72,8 +78,8 @@ Example: active / value / default / on / medium
 
 Example: label / active / value / default / medium
 
-<div class="left-image large">
-  <img style="width: 953px;" alt="Button variants" src="http://thonet.realized.es/doc/img/components/btn-variants.png"/>
+<div class="left-image medium">
+  <img style="width: 953px;" alt="Checkbox variants" src="http://thonet.realized.es/doc/img/components/checkbox-variants.png"/>
 </div>
 
 </div>

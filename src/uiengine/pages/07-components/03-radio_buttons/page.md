@@ -2,7 +2,11 @@
 
 ### Definición
 
-![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Button tokens")
+<div class="margin-small">
+  <div class="left-image medium">
+    <img alt="radio buttons tokens" src="http://thonet.realized.es/doc/img/components/radiobtn-tokens.png"/>
+  </div>
+</div>
 
 Los radio buttons se utilizan para ofrecer listas de dos o más opciones excluyentes entre sí, de manera que el usuario sólo puede elegir una de ellas.
 
@@ -37,7 +41,7 @@ Example: left / checked / active / focused / large
 Example: label / checked / active / default
 
 <div class="left-image large">
-  <img alt="Button sizes" src="http://thonet.realized.es/doc/img/components/btn-sizes.png"/>
+  <img alt="Button sizes" src="http://thonet.realized.es/doc/img/components/radiobtn-sizes.png"/>
 </div>
 
 </div>
@@ -49,7 +53,7 @@ Example: label / checked / active / default
 Example: label / checked /active / medium
 
 <div class="left-image large">
-  <img alt="Button states" src="http://thonet.realized.es/doc/img/components/btn-states.png"/>
+  <img alt="Button states" src="http://thonet.realized.es/doc/img/components/radiobtn-states.png"/>
 </div>
 
 </div>
@@ -60,8 +64,8 @@ Example: label / checked /active / medium
 
 Example: label /active / focused / medium
 
-<div class="left-image large">
-  <img style="width: 953px;" alt="Button variants" src="http://thonet.realized.es/doc/img/components/btn-variants.png"/>
+<div class="left-image medium">
+  <img style="width: 953px;" alt="Button variants" src="http://thonet.realized.es/doc/img/components/radiobtn-variants.png"/>
 </div>
 
 </div>

@@ -136,6 +136,9 @@ p.caption {
     font-size: 0.7rem;
     margin-top: 0;
 }
+.margin-small {
+  margin: 24px 0;
+}
 
 /* HEADER */
 
@@ -283,6 +286,9 @@ li.navigation__item.navigation__item--level-0:last-child {
 }
 .small{
   width: 300px;
+}
+.medium{
+  width: 480px;
 }
 
 
