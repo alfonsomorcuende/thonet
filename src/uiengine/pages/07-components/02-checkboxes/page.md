@@ -1,4 +1,4 @@
-# Chekboxes
+# Checkboxes
 
 ### Definición
 
