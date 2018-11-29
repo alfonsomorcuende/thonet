@@ -4,6 +4,8 @@
 
 ![alt text](http://thonet.realized.es/doc/img/components/btn-tokens.png "Button tokens")
 
+[Codepen](https://codepen.io/luisjmontoro/project/editor/ZwWoKL)
+
 Los botones indican una acción / reacciòn / función concreta que tendrá lugar al hacer click sobre ellos. Generalmente los botones se utilizarán para indicar acciones principales o secundarias, evitando su uso en items de navegación (salvo en el caso concreto de Material Design, que cuenta con un botón de navegación propio.)
 
 ### Definition > Token > Value
